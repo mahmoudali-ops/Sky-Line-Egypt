@@ -1,0 +1,2253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="To book hotels in hurghada" />
+    <meta name="author" content="" />
+    <title>CoralFun Travel - Hotels</title>
+    <!-- Favicon-->
+    <link href="assets/img/logoNew.PNG" rel="icon">
+    <link href="assets/img/logoNew.PNG" rel="apple-touch-icon">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+    <!-- Custom CSS and Bootstrap -->
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      \
+</head>
+
+
+<body>
+
+  <!-- End -->
+  <div class="position-fixed whatsapp-float" style="bottom: 20px; right: 20px; z-index: 10000;">
+    <a class="navbar-brand text-center text-white" href="https://wa.me/+201153535454" target="_blank">
+      <img src="assets/img/whatsapp.png" alt="WhatsApp" width="60" height="60" class="whatsapp-icon">
+    </a>
+  </div>
+  <!-- Navigation-->
+
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm" id="mainNav"
+    style="backdrop-filter: blur(2px); background: rgba(33, 37, 41, 0.6); height: 100px;">
+  <div class="container-fluid px-3 d-flex align-items-center justify-content-between">
+
+    <!-- Left side: Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="assets/img/Sky_logo.png" alt="..." class="nav-logo" style="height:45px;" />
+    </a>
+
+    <!-- Center: Language Flags -->
+    <div class="d-flex align-items-center order-lg-2">
+      <a href="/index.html" onclick="changeLanguage('en')" class="px-1">
+        <img src="assets/img/lang1.png" alt="English" class="flag-icon" style="height:24px; width: 24px;">
+      </a>
+      <a href="#" onclick="changeLanguage('ru')" class="px-1">
+        <img src="assets/img/lang2.jpg" alt="Polski" class="flag-icon" style="height:24px; width: 24px">
+      </a>
+      <a href="#" onclick="changeLanguage('gr')" class="px-1">
+        <img src="assets/img/german.png" alt="German" class="flag-icon" style="height:24px; width: 24px">
+      </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="navbar-toggler text-white border-0 order-lg-3" type="button" data-bs-toggle="offcanvas"
+      data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars fa-lg"></i>
+    </button>
+
+    <!-- Desktop Menu -->
+    <div class="collapse navbar-collapse order-lg-4" id="navbarNavDropdown">
+      <ul class="navbar-nav text-uppercase ms-auto align-items-lg-center">
+
+        <li class="nav-item">
+          <a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" href="index.html" data-translate="home">
+            <i class="fa-solid fa-house"></i> Home
+          </a>
+        </li>
+
+        <!-- Trips Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle px-3 fw-semibold text-warning d-flex align-items-center gap-2"
+             id="trips" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-translate="trips">
+            <i class="fa-solid fa-plane-departure"></i> Trips
+          </a>
+          <ul class="dropdown-menu border-0 shadow-lg rounded-4 animate__animated animate__fadeInDown">
+            <li><a class="dropdown-item py-2" href="travels_cairo.html"><i class="fa-solid fa-city me-2 text-warning"></i> Cairo Travel</a></li>
+            <li><a class="dropdown-item py-2" href="travels_luxor.html"><i class="fa-solid fa-landmark me-2 text-warning"></i> Luxor Travel</a></li>
+            <li><a class="dropdown-item py-2" href="trips/boattrips.html"><i class="fa-solid fa-sailboat me-2 text-warning"></i> Sea Trips</a></li>
+            <li><a class="dropdown-item py-2" href="trips/safari.html"><i class="fa-solid fa-car-side me-2 text-warning"></i> Safari</a></li>
+            <li><a class="dropdown-item py-2" href="trips/diving.html"><i class="fa-solid fa-water me-2 text-warning"></i> Diving</a></li>
+            <li><a class="dropdown-item py-2" href="trips/seaact.html"><i class="fa-solid fa-umbrella-beach me-2 text-warning"></i> Things to Do</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" href="Hotels.html"><i class="fa-solid fa-hotel"></i> Hotels</a></li>
+        <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" href="transport.html"><i class="fa-solid fa-bus"></i> Transport</a></li>
+        <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" data-translate="about" href="About.html"><i class="fa-solid fa-circle-info"></i> About</a></li>
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Mobile Offcanvas Menu -->
+  <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header border-bottom border-secondary">
+      <h5 class="offcanvas-title text-warning fw-bold" id="mobileMenuLabel" data-translate="menu">Menu</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  
+    <div class="offcanvas-body">
+      <ul class="navbar-nav text-uppercase">
+  
+        <li>
+          <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="index.html" data-translate="home">
+            <i class="fa-solid fa-house me-2"></i> Home
+          </a>
+        </li>
+  
+        <!-- Trips Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-warning fw-semibold d-flex align-items-center gap-2" href="#" id="trips-mobile" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-translate="trips">
+            <i class="fa-solid fa-plane-departure me-2"></i> Trips
+          </a>
+          <ul class="dropdown-menu bg-dark border-0 shadow">
+            <li><a class="dropdown-item text-light" href="travels_cairo.html" data-translate="cairoTravel">Cairo Travel</a></li>
+            <li><a class="dropdown-item text-light" href="travels_luxor.html" data-translate="luxorTravel">Luxor Travel</a></li>
+            <li><a class="dropdown-item text-light" href="trips/boattrips.html" data-translate="seaTrips">Sea Trips</a></li>
+            <li><a class="dropdown-item text-light" href="trips/safari.html" data-translate="safari">Safari</a></li>
+            <li><a class="dropdown-item text-light" href="trips/diving.html" data-translate="diving">Diving</a></li>
+            <li><a class="dropdown-item text-light" href="trips/seaact.html" data-translate="thingsToDo">Things to Do</a></li>
+          </ul>
+        </li>
+  
+        <li>
+          <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="Hotels.html" data-translate="hotels">
+            <i class="fa-solid fa-hotel me-2"></i> Hotels
+          </a>
+        </li>
+        <li>
+          <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="transport.html" data-translate="transport">
+            <i class="fa-solid fa-bus me-2"></i> Transport
+          </a>
+        </li>
+        <li>
+          <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="About.html" data-translate="about">
+            <i class="fa-solid fa-circle-info me-2"></i> About
+          </a>
+        </li>
+  
+      </ul>
+    </div>
+  </div>
+
+  <!-- End Navbar -->
+  <section class="page-section bg-light py-5" id="hurghada-hotels">
+    <div class="container">
+      <!-- العنوان -->
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-uppercase gradient-text" data-translate="hurghada_page_main_title">
+          Hurghada Hotels
+        </h2>
+        <p class="text-muted fs-5" data-translate="hurghada_page_main_subtitle">
+          Your next getaway starts here! Book with <strong>Sky Line Egypt</strong> and enjoy great deals on top hotels — fast, easy, and affordable        </p>
+      </div>
+  
+      <!-- شبكة الفنادق -->
+      <div class="row g-4">
+        <!-- مثال كرت فندق -->
+        <div class="col-lg-4 col-md-6">
+          <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+            <div class="hotel-img position-relative">
+              <img src="assets/img/portfolio/01.jpg" alt="Pyramisa Beach Resort" class="img-fluid w-100">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <!-- <a href="#portfolioModal1" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+              </div>
+            </div>
+            <div class="hotel-body text-center p-3">
+              <h5 class="fw-bold mb-1">Pyramisa Beach Resort</h5>
+              <p class="text-muted mb-0">Sahl Hasheesh</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- انسخ الكرت وعدل الصورة والعناوين -->
+        <div class="col-lg-4 col-md-6">
+          <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+            <div class="hotel-img position-relative">
+              <img src="assets/img/portfolio/2_1.jpg" alt="Three Corners Sunny Beach" class="img-fluid w-100">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <!-- <a href="#portfolioModal2" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+              </div>
+            </div>
+            <div class="hotel-body text-center p-3">
+              <h5 class="fw-bold mb-1">Three Corners Sunny Beach</h5>
+              <p class="text-muted mb-0">Hurghada</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- أضف باقي الكروت بنفس النمط -->
+        <div class="col-lg-4 col-md-6">
+          <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+            <div class="hotel-img position-relative">
+              <img src="assets/img/portfolio/3_1.jpg" alt="Ali Baba Palace Resort" class="img-fluid w-100">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <!-- <a href="#portfolioModal3" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+              </div>
+            </div>
+            <div class="hotel-body text-center p-3">
+              <h5 class="fw-bold mb-1">Ali Baba Palace Resort</h5>
+              <p class="text-muted mb-0">Hurghada</p>
+            </div>
+          </div>
+        </div>
+        
+         <!-- أضف باقي الكروت بنفس النمط -->
+         <div class="col-lg-4 col-md-6">
+          <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+            <div class="hotel-img position-relative">
+              <img src="assets/img/portfolio/5_1.jpg" alt="Ali Baba Palace Resort" class="img-fluid w-100">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <!-- <a href="#portfolioModal3" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+              </div>
+            </div>
+            <div class="hotel-body text-center p-3">
+              <h5 class="fw-bold mb-1">Desert Rose Resort</h5>
+              <p class="text-muted mb-0">Hurghada</p>
+            </div>
+          </div>
+        </div>
+
+        <!--------------------------------------------------------------------->
+         <!-- أضف باقي الكروت بنفس النمط -->
+         <div class="col-lg-4 col-md-6">
+          <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+            <div class="hotel-img position-relative">
+              <img src="assets/img/portfolio/4_1.jpg" alt="Ali Baba Palace Resort" class="img-fluid w-100">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <!-- <a href="#portfolioModal3" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+              </div>
+            </div>
+            <div class="hotel-body text-center p-3">
+              <h5 class="fw-bold mb-1">Aladdin Beach</h5>
+              <p class="text-muted mb-0">Hurghada</p>
+            </div>
+          </div>
+        </div>
+         <!-- أضف باقي الكروت بنفس النمط -->
+         <div class="col-lg-4 col-md-6">
+          <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+            <div class="hotel-img position-relative">
+              <img src="assets/img/portfolio/6_1.jpg" alt="Ali Baba Palace Resort" class="img-fluid w-100">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <!-- <a href="#portfolioModal3" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+              </div>
+            </div>
+            <div class="hotel-body text-center p-3">
+              <h5 class="fw-bold mb-1">Meraki Resort</h5>
+              <p class="text-muted mb-0">Hurghada</p>
+            </div>
+          </div>
+        </div>
+         <!-- أضف باقي الكروت بنفس النمط -->
+         <div class="col-lg-4 col-md-6">
+          <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+            <div class="hotel-img position-relative">
+              <img src="assets/img/portfolio/7_1.jpg" alt="Ali Baba Palace Resort" class="img-fluid w-100">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <!-- <a href="#portfolioModal3" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+              </div>
+            </div>
+            <div class="hotel-body text-center p-3">
+              <h5 class="fw-bold mb-1">Sunrise Aqua Joy Resort</h5>
+              <p class="text-muted mb-0">Hurghada</p>
+            </div>
+          </div>
+        </div>
+         <!-- أضف باقي الكروت بنفس النمط -->
+         <div class="col-lg-4 col-md-6">
+          <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+            <div class="hotel-img position-relative">
+              <img src="assets/img/portfolio/8_2.jpg" alt="Ali Baba Palace Resort" class="img-fluid w-100">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <!-- <a href="#portfolioModal3" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+              </div>
+            </div>
+            <div class="hotel-body text-center p-3">
+              <h5 class="fw-bold mb-1">PickTITO Aqua Park</h5>
+              <p class="text-muted mb-0">Hurghada</p>
+            </div>
+          </div>
+        </div>
+         <!-- أضف باقي الكروت بنفس النمط -->
+         <div class="col-lg-4 col-md-6">
+          <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+            <div class="hotel-img position-relative">
+              <img src="assets/img/portfolio/9_1.jpg" alt="Ali Baba Palace Resort" class="img-fluid w-100">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <!-- <a href="#portfolioModal3" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+              </div>
+            </div>
+            <div class="hotel-body text-center p-3">
+              <h5 class="fw-bold mb-1">Hawaii Paradise Aqua Park</h5>
+              <p class="text-muted mb-0">Hurghada</p>
+            </div>
+          </div>
+        </div>
+         <!-- أضف باقي الكروت بنفس النمط -->
+         <div class="col-lg-4 col-md-6">
+          <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+            <div class="hotel-img position-relative">
+              <img src="images/hawaii5.jpg" alt="Ali Baba Palace Resort" class="img-fluid w-100">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <!-- <a href="#portfolioModal3" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+              </div>
+            </div>
+            <div class="hotel-body text-center p-3">
+              <h5 class="fw-bold mb-1">Hawaii Riviera Aqua Park Resort</h5>
+              <p class="text-muted mb-0">Hurghada</p>
+            </div>
+          </div>
+        </div>
+         <!-- أضف باقي الكروت بنفس النمط -->
+         <div class="col-lg-4 col-md-6">
+          <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+            <div class="hotel-img position-relative">
+              <img src="images/seagull2.jpg" alt="Ali Baba Palace Resort" class="img-fluid w-100">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <!-- <a href="#portfolioModal3" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+              </div>
+            </div>
+            <div class="hotel-body text-center p-3">
+              <h5 class="fw-bold mb-1">Seagull Beach Resort</h5>
+              <p class="text-muted mb-0">Hurghada</p>
+            </div>
+          </div>
+        </div>
+         <!-- أضف باقي الكروت بنفس النمط -->
+         <div class="col-lg-4 col-md-6">
+          <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+            <div class="hotel-img position-relative">
+              <img src="images/sunny3.jpg" alt="Ali Baba Palace Resort" class="img-fluid w-100">
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <!-- <a href="#portfolioModal3" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+              </div>
+            </div>
+            <div class="hotel-body text-center p-3">
+              <h5 class="fw-bold mb-1">Sunny Days Palma De Mirette Resort & Spa</h5>
+              <p class="text-muted mb-0">Hurghada</p>
+            </div>
+          </div>
+        </div>
+
+            <!-- أضف باقي الكروت بنفس النمط -->
+            <div class="col-lg-4 col-md-6">
+              <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+                <div class="hotel-img position-relative">
+                  <img src="images/gefton5.jpg" alt="Ali Baba Palace Resort" class="img-fluid w-100">
+                  <div class="overlay d-flex align-items-center justify-content-center">
+                    <!-- <a href="#portfolioModal3" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+                  </div>
+                </div>
+                <div class="hotel-body text-center p-3">
+                  <h5 class="fw-bold mb-1">Giftun Azur Resort</h5>
+                  <p class="text-muted mb-0">Hurghada</p>
+                </div>
+              </div>
+            </div>
+             <!-- أضف باقي الكروت بنفس النمط -->
+             <div class="col-lg-4 col-md-6">
+              <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+                <div class="hotel-img position-relative">
+                  <img src="images/karama5.jpg" alt="Ali Baba Palace Resort" class="img-fluid w-100">
+                  <div class="overlay d-flex align-items-center justify-content-center">
+                    <!-- <a href="#portfolioModal3" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+                  </div>
+                </div>
+                <div class="hotel-body text-center p-3">
+                  <h5 class="fw-bold mb-1">El Karma Beach Resort & Aqua Park</h5>
+                  <p class="text-muted mb-0">Hurghada</p>
+                </div>
+              </div>
+            </div>
+             <!-- أضف باقي الكروت بنفس النمط -->
+             <div class="col-lg-4 col-md-6">
+              <div class="hotel-card shadow-lg border-0 rounded-4 overflow-hidden">
+                <div class="hotel-img position-relative">
+                  <img src="images/sindbad5.jpg" alt="Ali Baba Palace Resort" class="img-fluid w-100">
+                  <div class="overlay d-flex align-items-center justify-content-center">
+                    <!-- <a href="#portfolioModal3" data-bs-toggle="modal" class="btn btn-gradient fw-bold px-4 py-2">View Details</a> -->
+                  </div>
+                </div>
+                <div class="hotel-body text-center p-3">
+                  <h5 class="fw-bold mb-1">Sindbad Club</h5>
+                  <p class="text-muted mb-0">Hurghada</p>
+                </div>
+              </div>
+            </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- Footer-->
+
+  <footer class="footer text-light pt-4 pb-3">
+    <div class="container">
+      <div class="row gy-4">
+        
+        <!-- 🏖️ About -->
+        <div class="col-md-4 col-sm-12">
+          <h5 class="fw-bold mb-2" data-translate="brandName">Sky Line Egypt Travel</h5>
+          <p class="small" data-translate="footer_about">
+            Explore Egypt with unforgettable adventures — from the Red Sea to the Nile,
+            we bring you moments filled with fun, culture, and discovery.
+          </p>
+          <div class="social-links mt-3">
+            <a href="https://www.facebook.com/profile.php?id=61583459636988" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/sky.lineeg?igsh=MXhnNjYwOGo4eXY4Mg==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+  
+        <!-- 🌍 Links -->
+        <div class="col-md-4 col-sm-6">
+          <h6 class="fw-bold mb-2" data-translate="quick_links">Quick Links</h6>
+          <ul class="list-unstyled footer-links small">
+            <li><a href="index.html" data-translate="home">Home</a></li>
+            <li><a href="About.html" data-translate="about">About Us</a></li>
+            <li><a href="transport.html" data-translate="transfer">Transfer</a></li>
+            <li><a href="Hotels.html" data-translate="hotels">Hotels</a></li>
+          </ul>
+        </div>
+  
+        <!-- 📞 Contact -->
+        <div class="col-md-4 col-sm-6">
+          <h6 class="fw-bold mb-2" data-translate="contact">Contact Info</h6>
+          <ul class="list-unstyled contact-info small">
+            <li><i class="fas fa-phone me-2"></i><a href="https://wa.me/+201153535454">+201153535454</a></li>
+            <!-- <li><i class="fas fa-envelope me-2"></i><a href="mailto:info@coralfuntravel.com">info@coralfuntravel.com</a></li> -->
+            <li><i class="fas fa-map-marker-alt me-2"></i>Hurghada, Egypt</li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- Divider -->
+      <hr class="my-3" />
+  
+      <!-- Bottom -->
+      <div class="text-center small text-muted">
+        <p class="mb-0">&copy; 2025 CoralFun Travel | Made in Egypt</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Portfolio Modals-->
+
+
+  <!--1 Portfolio item 1 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Pyramisa Beach Resort</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="assets/img/portfolio/1_1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="assets/img/portfolio/1_1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/1_1.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="assets/img/portfolio/1_1.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/1_2.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="assets/img/portfolio/1_2.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/1_3.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/1_3.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/1_4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/1_4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+              <!-- <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                                            <div class="carousel-inner">
+                                              <div class="carousel-item">
+                                                <img src="assets/img/portfolio/01.jpg" class="d-block w-100" alt="...">
+                                              </div>                                            <div class="carousel-item active">
+                                                <img src="assets/img/portfolio/1_1.jpg" class="d-block w-100" alt="...">
+                                              </div>
+                                              <div class="carousel-item">
+                                                <img src="assets/img/portfolio/1_2.jpg" class="d-block w-100" alt="...">
+                                              </div>
+                                              <div class="carousel-item">
+                                                <img src="assets/img/portfolio/1_3.jpg" class="d-block w-100" alt="...">
+                                              </div>
+                                              <div class="carousel-item">
+                                                <img src="assets/img/portfolio/1_4.jpg" class="d-block w-100" alt="...">
+                                              </div>
+    
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                              <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                              <span class="visually-hidden">Next</span>
+                                            </button>
+                                          </div> -->
+
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hurghada_pyramisa_intro">
+                Experience world-class service at Pyramisa Beach Resort Sahl Hasheesh
+                Directly located on the pristine shoreline of the Red Sea, Sahl Hasheesh Pyramisa enjoys direct private
+                access to sandy beach. It offers 2 outdoor pools, 2 children's pool, a kid's club.
+              </p>
+              
+              <p data-translate="hurghada_pyramisa_rooms">
+                All spacious rooms feature a balcony overlooking the garden, pool or sea view. It includes a seating
+                area, a flat-screen TV, coffee and tea facilities and a safety deposit box. All bathrooms are fitted
+                with amenities, a shower, or a bathtub, and a hairdryer.
+              </p>
+              
+              <p data-translate="hurghada_pyramisa_restaurants">
+                The resort’s main restaurant serves International Cuisine and there are 3 a-la-carte restaurants. It
+                also includes 5 bars.
+              </p>
+              
+              <p data-translate="hurghada_pyramisa_wellness">
+                The hotel has a Turkish bath, steam bath, hot tub, sauna, and fully equipped gym with state-of-the-art
+                fitness equipment.
+              </p>
+              
+              <p data-translate="hurghada_pyramisa_location">
+                The resort is located 24 km from Hurghada International Airport. A shuttle can be arranged on request.
+                Parking is also available free of charge. Free WiFi is available in public areas.
+              </p>
+              
+              <ul class="list-inline">
+                <li data-translate="hurghada_pyramisa_popular_facilities"><strong>Most popular facilities</strong></li>
+                <li data-translate="hurghada_pyramisa_pool">2 swimming pools</li>
+                <li data-translate="hurghada_pyramisa_wifi">Free WiFi</li>
+                <li data-translate="hurghada_pyramisa_airport_shuttle">Airport shuttle</li>
+                <li data-translate="hurghada_pyramisa_beachfront">Beachfront</li>
+                <li data-translate="hurghada_pyramisa_family_rooms">Family rooms</li>
+                <li data-translate="hurghada_pyramisa_spa">Spa and wellness centre</li>
+                <li data-translate="hurghada_pyramisa_fitness">Fitness centre</li>
+                <li data-translate="hurghada_pyramisa_bar">Bar</li>
+                <li data-translate="hurghada_pyramisa_private_beach">Private beach area</li>
+                <li data-translate="hurghada_pyramisa_breakfast">Good breakfast</li>
+              </ul>
+              
+
+              </ul>
+
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454"data-translate="travel-luxor-book-now">BOOK NOW</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--2 Portfolio item 2 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Three Corners Sunny Beach</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="assets/img/portfolio/2_1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="assets/img/portfolio/2_1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/2_1.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="assets/img/portfolio/2_1.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/2_2.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="assets/img/portfolio/2_2.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/2_3.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/2_3.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/2_4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/2_4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hurghada_sunnybeach_intro">
+                The Sunny Beach is a 4-star all-inclusive resort enjoying a prime beachfront location in Hurghada. With
+                its variety of pools, it offers a diving school and a water park for children. The popular area of El
+                Gouna is 8 km away.
+              </p>
+              
+              <p data-translate="hurghada_sunnybeach_rooms">
+                All rooms at Three Corners Sunny Beach Resort come with private balconies, which overlook the
+                flowering gardens, pools or the Red Sea. Each has a minibar and satellite TV.
+              </p>
+              
+              <p data-translate="hurghada_sunnybeach_restaurants">
+                The hotel’s main restaurant organises theme nights with cuisine from around the world. Light lunches
+                can be enjoyed at the beach restaurant, while Italian food is served at Dolce Vita. There are also 3
+                bars to choose from.
+              </p>
+              
+              <p data-translate="hurghada_sunnybeach_activities">
+                The Three Corners has a full week animation programme with several entertainment and sport activities.
+                Guests can enjoy beach volleyball, water polo, aerobic and yoga.
+              </p>
+              
+              <p data-translate="hurghada_sunnybeach_location">
+                The airport is a 20-minute drive away and the centre of Hurghada, with its rich culture and lively
+                nightlife, is 10 minutes from the resort.
+              </p>
+              
+              <ul class="list-inline">
+                <li data-translate="hurghada_sunnybeach_popular_facilities"><strong>Most popular facilities</strong></li>
+                <li data-translate="hurghada_sunnybeach_pool">4 swimming pools</li>
+                <li data-translate="hurghada_sunnybeach_wifi">Free WiFi</li>
+                <li data-translate="hurghada_sunnybeach_airport_shuttle">Airport shuttle</li>
+                <li data-translate="hurghada_sunnybeach_beachfront">Beachfront</li>
+                <li data-translate="hurghada_sunnybeach_family_rooms">Family rooms</li>
+                <li data-translate="hurghada_sunnybeach_spa">Spa and wellness centre</li>
+                <li data-translate="hurghada_sunnybeach_fitness">Fitness centre</li>
+                <li data-translate="hurghada_sunnybeach_bar">Bar</li>
+                <li data-translate="hurghada_sunnybeach_private_beach">Private beach area</li>
+                <li data-translate="hurghada_sunnybeach_breakfast">Very good breakfast</li>
+              </ul>
+              
+
+              </ul>
+
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454">BOOK NOW</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--3 Portfolio item 3 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Ali Baba Palace Resort</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="assets/img/portfolio/3_1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="assets/img/portfolio/3_1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/3_1.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="assets/img/portfolio/3_1.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/3_2.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="assets/img/portfolio/3_2.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/3_3.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/3_3.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/3_4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/3_4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hurghada_alibaba_intro">
+                Located in Hurghada with its own private beach area, Alibaba Palace hosts one of the biggest outdoor
+                swimming pools in Hurghada. The 4 stars resort features a diving centre, as well as an aqua and water
+                sports centre.
+              </p>
+              
+              <p data-translate="hurghada_alibaba_entertainment">
+                Other entertainment options available for guests include a bowling centre, snorkelling, beach
+                volleyball, mini golf, and 2 tennis courts. Guests wishing to relax can take a massage session or sit in
+                the hot tub or steam room.
+              </p>
+              
+              <p data-translate="hurghada_alibaba_family">
+                Visitors with children are welcomed in the resort. There is a playground for kids and a heated swimming
+                pool. There are 8 restaurants and bars at Alibaba Palace and room service is provided.
+                Aladdin's guest has the right to use the beach in Alibaba & Aqua bark.
+                Aladdin's guest has the right to use the beach and pool in Alibaba and has free entrance to the Ali Baba
+                disco.
+              </p>
+              
+              <p data-translate="hurghada_alibaba_rooms">
+                The air-conditioned rooms and suites are bright and have floor-to-ceiling windows. They feature a
+                balcony with garden and pool views. All rooms include a TV, minibar, and safety deposit box. WiFi is
+                available for an additional charge.
+                Guests in Ali Baba Palace get free access to Aqua Park.
+                Hurghada International Airport is 13 km from the resort.
+                Aladdin's guest has the right to use the beach and Aqua bark in Alibaba for all nationalities.
+              </p>
+              
+              <ul class="list-inline">
+                <li data-translate="hurghada_alibaba_popular_facilities"><strong>Most popular facilities</strong></li>
+                <li data-translate="hurghada_alibaba_pool">Outdoor swimming pool</li>
+                <li data-translate="hurghada_alibaba_wifi">Free WiFi</li>
+                <li data-translate="hurghada_alibaba_airport_shuttle">Airport shuttle</li>
+                <li data-translate="hurghada_alibaba_beachfront">Beachfront</li>
+                <li data-translate="hurghada_alibaba_family_rooms">Family rooms</li>
+                <li data-translate="hurghada_alibaba_spa">Spa and wellness centre</li>
+                <li data-translate="hurghada_alibaba_tea_coffee">Tea/coffee maker in all rooms</li>
+                <li data-translate="hurghada_alibaba_bar">Bar</li>
+                <li data-translate="hurghada_alibaba_private_beach">Private beach area</li>
+                <li data-translate="hurghada_alibaba_breakfast">Good breakfast</li>
+              </ul>
+              
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454" data-translate="hurghada_alibaba_book_now">
+                BOOK NOW
+              </a>
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--4 Portfolio item 4 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Aladdin Beach</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="assets/img/portfolio/4_1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="assets/img/portfolio/4_1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/4_1.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="assets/img/portfolio/4_1.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/4_2.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="assets/img/portfolio/4_2.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/4_3.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/4_3.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/4_4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/4_4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hurghada_aladdin_intro">
+                Facing the beachfront, Aladdin Beach Resort offers 4-star accommodations in Hurghada and features a
+                restaurant, outdoor swimming pool and garden. With a terrace, the property also has a bar, as well as a
+                shared lounge. The property provides room service, a kids' club and organizing tours for guests.
+              </p>
+              
+              <p data-translate="hurghada_aladdin_play">
+                The resort has a playground. You can play table tennis and minigolf at Aladdin Beach Resort, and the
+                area is popular for fishing.
+              </p>
+              
+              <p data-translate="hurghada_aladdin_staff">
+                Speaking Arabic, German, English and Italian, staff at the 24-hour front desk can help you plan your
+                stay. Popular points of interest near the accommodation include Solano Beach, Alladin / Jasmine Beach Marina
+                and Sand City Hurghada. The nearest airport is Hurghada International, 4.3 miles from Aladdin Beach
+                Resort, and the property offers a paid airport shuttle service.
+              </p>
+              
+              <ul class="list-inline">
+                <li data-translate="hurghada_aladdin_popular_facilities"><strong>Most popular facilities</strong></li>
+                <li data-translate="hurghada_aladdin_pool">2 swimming pools</li>
+                <li data-translate="hurghada_aladdin_wifi">Free WiFi</li>
+                <li data-translate="hurghada_aladdin_airport_shuttle">Airport shuttle</li>
+                <li data-translate="hurghada_aladdin_beachfront">Beachfront</li>
+                <li data-translate="hurghada_aladdin_spa">Spa</li>
+                <li data-translate="hurghada_aladdin_fitness">Fitness center</li>
+                <li data-translate="hurghada_aladdin_restaurants">3 restaurants</li>
+                <li data-translate="hurghada_aladdin_bar">Bar</li>
+                <li data-translate="hurghada_aladdin_private_beach">Private beach area</li>
+                <li data-translate="hurghada_aladdin_breakfast">Good breakfast</li>
+              </ul>
+              
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454" data-translate="hurghada_aladdin_book_now">
+                BOOK NOW
+              </a>
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--5 Portfolio item 5 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Desert Rose Resort</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="assets/img/portfolio/5_1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="assets/img/portfolio/5_1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/5_1.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="assets/img/portfolio/5_1.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/5_2.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="assets/img/portfolio/5_2.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/5_3.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/5_3.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/5_4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/5_4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hurghada_desert_rose_intro">
+                Experience world-class service at Desert Rose Resort
+              </p>
+              
+              <p data-translate="hurghada_desert_rose_features">
+                This 5-star resort is located in the heart of Hurghada and offers air-conditioned rooms with a private
+                balcony. It includes 3 swimming pools, a spa, a children's pool and a private beach along the Red Sea.
+                It also includes an aqua park.
+              </p>
+              
+              <p data-translate="hurghada_desert_rose_rooms">
+                Desert Rose’s spacious rooms include a satellite TV and a minibar. Some come with a separate seating
+                area. The bathrooms are stocked with toiletries and a hairdryer.
+              </p>
+              
+              <p data-translate="hurghada_desert_rose_spa">
+                Relaxing massage treatments are offered at Planet Beach Spa Centre including a gym and a sauna.
+                Entertainment is provided for children at the kids club. Windsurfing and snorkelling are possible at the
+                beach.
+              </p>
+              
+              <p data-translate="hurghada_desert_rose_dining">
+                Located on the beach, II Delfino restaurant serves freshly prepared seafood. Italian cuisine is served
+                at Dolce Vita, while the Palm main restaurant serves buffet dishes. Fattoosh offers Lebanese dishes. The
+                property has 9 bars including Tropicana Pool Bar, Bella Vista and Ali Baba serving Oriental drinks and
+                shisha.
+              </p>
+              
+              <ul class="list-inline">
+                <li data-translate="hurghada_desert_rose_popular_facilities"><strong>Most popular facilities</strong></li>
+                <li data-translate="hurghada_desert_rose_pool">3 swimming pools</li>
+                <li data-translate="hurghada_desert_rose_wifi">Free WiFi</li>
+                <li data-translate="hurghada_desert_rose_airport_shuttle">Airport shuttle</li>
+                <li data-translate="hurghada_desert_rose_beachfront">Beachfront</li>
+                <li data-translate="hurghada_desert_rose_family_rooms">Family rooms</li>
+                <li data-translate="hurghada_desert_rose_spa_center">Spa and wellness centre</li>
+                <li data-translate="hurghada_desert_rose_fitness">Fitness centre</li>
+                <li data-translate="hurghada_desert_rose_bar">Bar</li>
+                <li data-translate="hurghada_desert_rose_private_beach">Private beach area</li>
+                <li data-translate="hurghada_desert_rose_breakfast">Fabulous breakfast</li>
+              </ul>
+              
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454" data-translate="hurghada_desert_rose_book_now">
+                BOOK NOW
+              </a>
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--6 Portfolio item 6 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Meraki Resort</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="assets/img/portfolio/6_1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="assets/img/portfolio/6_1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/6_1.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="assets/img/portfolio/6_1.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/6_2.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="assets/img/portfolio/6_2.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/6_3.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/6_3.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/6_4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/6_4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hurghada_meraki_intro">
+                Experience the Egyptian hospitality with the boho-chic flair and an eclectic atmosphere combined with a
+                variety of hotel facilities with a clubbing Resort concept. The private sandy beach offers relaxing
+                hours directly at the Red Sea.
+              </p>
+              
+              <p data-translate="hurghada_meraki_rooms">
+                All 368 rooms come along with the same conveniences. The specially designed creative rooms combine a
+                Bohemian style atmosphere with comfort for an enjoyable stay. All rooms have a bathroom with shower,
+                satellite TV, telephone, mini-fridge and air-conditioning. Each room has a balcony or terrace.
+              </p>
+              
+              <p data-translate="hurghada_meraki_dining">
+                Experience tasteful meals and a wide selection of beverages in our restaurants and bars. Sample the
+                wide choice with something to suit every taste. Guests can enjoy dinner buffets at the main dining
+                restaurant Munchery or at 7 different a la carte restaurants. Experience with Meraki Resort a variety of
+                locations with a different atmosphere provided by 6 bars to enjoy a nice cocktail at the end of a
+                wonderful vacation day.
+              </p>
+              
+              <p data-translate="hurghada_meraki_activities">
+                A walking distance from Hurghada downtown, Meraki Resort offers a 2.6 km beach with diving and
+                snorkeling opportunities, pools, 2 water slides, relaxing massages and a beauty shop.
+              </p>
+              
+              <ul class="list-inline">
+                <li data-translate="hurghada_meraki_popular_facilities"><strong>Most popular facilities</strong></li>
+                <li data-translate="hurghada_meraki_pool">3 swimming pools</li>
+                <li data-translate="hurghada_meraki_wifi">Free WiFi</li>
+                <li data-translate="hurghada_meraki_airport_shuttle">Airport shuttle</li>
+                <li data-translate="hurghada_meraki_beachfront">Beachfront</li>
+                <li data-translate="hurghada_meraki_family_rooms">Family rooms</li>
+                <li data-translate="hurghada_meraki_spa">Spa and wellness centre</li>
+                <li data-translate="hurghada_meraki_fitness">Fitness centre</li>
+                <li data-translate="hurghada_meraki_tea_coffee">Tea/coffee maker in all rooms</li>
+                <li data-translate="hurghada_meraki_bar">Bar</li>
+                <li data-translate="hurghada_meraki_private_beach">Private beach area</li>
+                <li data-translate="hurghada_meraki_breakfast">Very good breakfast</li>
+              </ul>
+              
+
+              </ul>
+
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454">BOOK NOW</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--7 Portfolio item 4 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Sunrise Aqua Joy Resort</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="assets/img/portfolio/7_1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="assets/img/portfolio/7_1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/7_2.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="assets/img/portfolio/7_2.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/7_3.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="assets/img/portfolio/7_3.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/7_4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/7_4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/7_5.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/7_5.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hurghada_sunrise_intro">
+                Located on the beach in the city of Hurghada, Sunrise Aqua Joy Resort is a family hotel that offers 6
+                outdoor pools, park facilities and private beach access. It offers free WiFi in public areas.
+              </p>
+              
+              <p data-translate="hurghada_sunrise_rooms">
+                The 4-star hotel features air-conditioned rooms furnished with a simple décor and warm colours. Each
+                room comes with a minibar, a satellite TV and has a balcony or terrace. There is a private bathroom.
+                Sunrise Aqua Joy Resort offers International, Italian, Asian, Egyptian, Greek, and Seafood
+                restaurants. The property also has 5 bars, including a shisha bar.
+              </p>
+              
+              <p data-translate="hurghada_sunrise_facilities">
+                The hotel features facilities such as an aqua park, a gym, spa and beauty salon.
+              </p>
+              
+              <p data-translate="hurghada_sunrise_location">
+                Hurghada International Airport is 6.5 km from the hotel, and the bus station is a 10-minute walk away.
+                Free public parking is possible at a location nearby.
+              </p>
+              
+              <ul class="list-inline">
+                <li data-translate="hurghada_sunrise_popular_facilities"><strong>Most popular facilities</strong></li>
+                <li data-translate="hurghada_sunrise_pool">6 swimming pools</li>
+                <li data-translate="hurghada_sunrise_wifi">Free WiFi</li>
+                <li data-translate="hurghada_sunrise_airport_shuttle">Airport shuttle</li>
+                <li data-translate="hurghada_sunrise_beachfront">Beachfront</li>
+                <li data-translate="hurghada_sunrise_family_rooms">Family rooms</li>
+                <li data-translate="hurghada_sunrise_spa">Spa and wellness centre</li>
+                <li data-translate="hurghada_sunrise_fitness">Fitness centre</li>
+                <li data-translate="hurghada_sunrise_bar">Bar</li>
+                <li data-translate="hurghada_sunrise_private_beach">Private beach area</li>
+                <li data-translate="hurghada_sunrise_breakfast">Very good breakfast</li>
+              </ul>
+              
+
+              </ul>
+
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454">BOOK NOW</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--8 Portfolio item 5 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">PickTITO Aqua Park</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="assets/img/portfolio/8_2.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="assets/img/portfolio/8_2.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/8_2.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="assets/img/portfolio/8_2.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/8_3.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="assets/img/portfolio/8_3.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/8_4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/8_4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/8_5.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/8_5.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hurghada_picktito_intro">
+                This hotel is situated in Hurghada and is a 10-minute drive from Hurghada International Airport.
+                TITO Aqua Park is located 600 Meter far away from the beach. It features a large pool with
+                waterslides, a heated swimming pool and a hot tub. Guests can enjoy free access to Aqua Park as well
+                free access for children Aqua Park at Aqua Blu Resort.
+              </p>
+              
+              <p data-translate="hurghada_picktito_rooms">
+                Rooms at the PickTITO Aqua Park Resort - Hurghada are spacious and include modern furnishings.
+                They come equipped with a TV and minibar. All rooms have balconies with views of the garden or pools.
+              </p>
+              
+              <p data-translate="hurghada_picktito_facilities">
+                Hotel offers Modern gym equipped with cardio vascular equipment.
+                PickTITO Aqua Park Resort - Hurghada has elegant restaurants that serve international, Italian
+                and Asian cuisine. There are also multiple bars - Lobby bar, Sport Café and two outdoor bars that
+                offer cocktails and refreshing beverages.
+              </p>
+              
+              <p data-translate="hurghada_picktito_location">
+                PickTITO Aqua Park Resort - Hurghada is located 15 km from the city center, and provides free
+                private on-site parking.
+              </p>
+              
+              <ul class="list-inline">
+                <li data-translate="hurghada_picktito_popular_facilities"><strong>Most popular facilities</strong></li>
+                <li data-translate="hurghada_picktito_pool">8 swimming pools</li>
+                <li data-translate="hurghada_picktito_wifi">Free WiFi</li>
+                <li data-translate="hurghada_picktito_family_rooms">Family rooms</li>
+                <li data-translate="hurghada_picktito_spa">Spa and wellness centre</li>
+                <li data-translate="hurghada_picktito_fitness">Fitness centre</li>
+                <li data-translate="hurghada_picktito_bar">Bar</li>
+                <li data-translate="hurghada_picktito_private_beach">Private beach area</li>
+                <li data-translate="hurghada_picktito_breakfast">Fabulous breakfast</li>
+              </ul>
+              
+
+              </ul>
+
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454">BOOK NOW</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--9 Portfolio item 6 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Hawaii Paradise Aqua Park Resort</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="assets/img/portfolio/9_1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="assets/img/portfolio/9_1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/9_2.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="assets/img/portfolio/9_2.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/9_3.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="assets/img/portfolio/9_3.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="assets/img/portfolio/9_4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="assets/img/portfolio/9_4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hawaii_paradise_desc1">
+                Facing the beachfront, Hawaii Paradise Aqua Park Resort - Families and Couples Only offers 5-star
+                accommodation in Hurghada and features a restaurant, outdoor swimming pool and fitness centre. Among the
+                various facilities of this property are a garden, a terrace and a bar. The accommodation provides a
+                24-hour front desk, airport transfers, room service and free WiFi.
+              </p>
+              
+              <p data-translate="hawaii_paradise_desc2">
+                All rooms in the resort are fitted with a kettle. Complete with a private bathroom equipped with a
+                hairdryer, all units at Hawaii Paradise Aqua Park Resort - Families and Couples Only have a flat-screen
+                TV and air conditioning, and some rooms will provide you with a balcony.
+              </p>
+              
+              <p data-translate="hawaii_paradise_desc3">
+                Hawaii Beach is 300 metres from the accommodation, while Panorama Bungalows Aqua Park Hurghada Beach is
+                1.4 km away. The nearest airport is Hurghada International Airport, 23 km from Hawaii Paradise Aqua Park
+                Resort - Families and Couples Only.
+              </p>
+              
+              <ul class="list-inline">
+                <li><strong data-translate="hawaii_paradise_facilities">Most popular facilities</strong></li>
+                <li></li>
+                <li data-translate="hawaii_paradise_facility1">Outdoor swimming pool</li>
+                <li data-translate="hawaii_paradise_facility2">Free WiFi</li>
+                <li data-translate="hawaii_paradise_facility3">Airport shuttle</li>
+                <li data-translate="hawaii_paradise_facility4">Beachfront</li>
+                <li data-translate="hawaii_paradise_facility5">Family rooms</li>
+                <li data-translate="hawaii_paradise_facility6">Spa and wellness centre</li>
+                <li data-translate="hawaii_paradise_facility7">Fitness centre</li>
+                <li data-translate="hawaii_paradise_facility8">Bar</li>
+                <li data-translate="hawaii_paradise_facility9">Private beach area</li>
+                <li data-translate="hawaii_paradise_facility10">Breakfast</li>
+              </ul>
+              
+
+              </ul>
+
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454">BOOK NOW</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--10 Portfolio item 6 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Hawaii Riviera Aqua Park Resort</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="images/hawaii1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="images/hawaii1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="images/hawaii2.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="images/hawaii2.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/hawaii3.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="images/hawaii3.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/hawaii4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/hawaii4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/hawaii5.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/hawaii5.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+             <p data-translate="hawaii_riviera_desc1">
+  Aqua Park Resort features 3 swimming pools and a private beach. Hawaii Riviera Aqua Park Resort also
+  offers an entertainment club for children. The property offers 2 à la carte restaurants and free WiFi in
+  the lobby area.
+</p>
+
+<p data-translate="hawaii_riviera_desc2">
+  All accommodation offers a TV with satellite and international channels, telephone, minibar, air
+  conditioning, bathroom, hairdryer, safety deposit box (digital) and a balcony or terrace. The main
+  restaurant serves large buffets and has indoor and outdoor seating areas. There is also a restaurant
+  with an Asian and Italian menu. In addition to a poolside bar and a beach bar.
+</p>
+
+<p data-translate="hawaii_riviera_desc3">
+  Hawaii Riviera Aqua Park Resort has a modern wellness center with a sauna, hot tub and massage
+  facilities. El Gouna Championship Golf Course is 10 km from the resort, and water sports are available
+  on the beach.
+</p>
+
+<p data-translate="hawaii_riviera_desc4">
+  The beautiful Hawaii Riviera Aqua Park Resort Hurghada is located 20 km north of Hurghada International
+  Airport and 15 km from the city centre. It is also 10 km from El Gouna. Free parking is available on
+  site.
+</p>
+
+<ul class="list-inline">
+  <li><strong data-translate="hawaii_riviera_facilities_title">Most popular facilities</strong></li>
+  <li></li>
+  <li data-translate="hawaii_riviera_facility1">Outdoor swimming pool</li>
+  <li data-translate="hawaii_riviera_facility2">Free WiFi</li>
+  <li data-translate="hawaii_riviera_facility3">Airport shuttle</li>
+  <li data-translate="hawaii_riviera_facility4">Beachfront</li>
+  <li data-translate="hawaii_riviera_facility5">Family rooms</li>
+  <li data-translate="hawaii_riviera_facility6">Spa and wellness centre</li>
+  <li data-translate="hawaii_riviera_facility7">Fitness centre</li>
+  <li data-translate="hawaii_riviera_facility8">Bar</li>
+  <li data-translate="hawaii_riviera_facility9">Private beach area</li>
+  <li data-translate="hawaii_riviera_facility10">Breakfast</li>
+</ul>
+
+
+              </ul>
+
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454">BOOK NOW</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--11 Portfolio item 6 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Seagull Beach Resort</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                                          <div class=" col-3 mt-1">
+                        <a href="images/seagull1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                          <img src="images/seagull1.jpg" alt="Gallery image 1"
+                            class="ecommerce-gallery-main-img active w-100" />
+                        </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="images/seagull2.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="images/seagull2.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/seagull3.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="images/seagull3.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/seagull4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/seagull4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/seagull5.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/seagull5.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hurghada_seagull_desc1">
+                Located directly on the Red Sea beach, this 4-star resort offers air-conditioned rooms with a balcony.
+                The 5 magnificent swimming pools are surrounded by shaded loungers. There is also a children's pool with
+                water slides. Guests can enjoy free WiFi in the dining hall and beach areas. Between 8 am and midnight.
+                The spacious rooms are decorated in a modern style. All rooms are air conditioned and offer satellite
+                TV, a mini fridge, a free safety deposit box, a direct dial telephone and a hairdryer.
+              </p>
+              
+              <p data-translate="hurghada_seagull_desc2">
+                The water park contains temperature-controlled swimming pools with 3 water slides for adults and 8
+                slides for children, and wonderful water entertainment facilities for you and your family. There are
+                also 5 restaurants and 6 bars, and the modern dining hall features corners dedicated to Italian, Indian,
+                Oriental and Far Eastern cuisine.
+              </p>
+              
+              <p data-translate="hurghada_seagull_desc3">
+                Seagull offers guests: private sandy beaches, multi-national entertainment team, spa, windsurfing,
+                tennis courts, billiards, table tennis, fitness centre, mini-zoo, kids club, 24/7 clinic, a disco, 2
+                cinemas and 2 auditoriums. Conference and event facilities and much more.
+              </p>
+              
+              <ul class="list-inline">
+                <li>
+                  <strong data-translate="hurghada_seagull_facilities">Most popular facilities</strong>
+                </li>
+                <li> </li>
+                <li data-translate="hurghada_seagull_pool">2 swimming pools</li>
+                <li data-translate="hurghada_seagull_wifi">Free WiFi</li>
+                <li data-translate="hurghada_seagull_beach">Facing the beach</li>
+                <li data-translate="hurghada_seagull_family">Family rooms</li>
+                <li data-translate="hurghada_seagull_spa">Spa and wellness centre</li>
+                <li data-translate="hurghada_seagull_fitness">Fitness centre</li>
+                <li data-translate="hurghada_seagull_bar">Bar</li>
+                <li data-translate="hurghada_seagull_tea_coffee">Tea/coffee maker in all rooms</li>
+                <li data-translate="hurghada_seagull_breakfast">breakfast</li>
+              </ul>
+              
+
+              </ul>
+
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454">BOOK NOW</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!--12 Portfolio item 6 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Sunny Days Palma De Mirette Resort & Spa</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="images/sunny1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="images/sunny1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="images/sunny2.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="images/sunny2.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/sunny3.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="images/sunny3.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/sunny4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/sunny4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/sunny5.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/sunny5.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hurghada_palma_desc1">
+                Located 3 km from Hurghada city centre, this all-inclusive resort features a lagoon pool, a heated pool
+                and a private beach on the Red Sea. It includes 12 on-site shops and a diving centre. Guests at this
+                property can also use the beach facilities at Sunny Days Palma de Meret Resort, where all meals will be
+                served.
+              </p>
+              
+              <p data-translate="hurghada_palma_desc2">
+                Each air-conditioned room has a private, furnished balcony with a panoramic sea view. Rooms at Palma de
+                Meret Resort include a satellite TV and a minibar.
+              </p>
+              
+              <p data-translate="hurghada_palma_desc3">
+                Sunny Days Resort organizes oriental-style evenings with belly dancers, tanoura dance performances and
+                live music. Guests can enjoy shisha at the Oriental Corner. Seafood dishes, pizza and international
+                cuisine are also served in the restaurants.
+              </p>
+              
+              <p data-translate="hurghada_palma_desc4">
+                Guests can relax in the sauna or work out in the gym. Palma Resort also has 2 tennis courts and a games
+                room with a billiards table and ping pong table.
+              </p>
+              
+              <p data-translate="hurghada_palma_desc5">
+                Sunny Days Palma de Meret Resort is located 10 km from Hurghada International Airport.
+              </p>
+              
+              <ul class="list-inline">
+                <li>
+                  <strong data-translate="hurghada_palma_facilities">Most popular facilities</strong>
+                </li>
+                <li> </li>
+                <li data-translate="hurghada_palma_pool">2 swimming pools</li>
+                <li data-translate="hurghada_palma_shuttle">Airport shuttle</li>
+                <li data-translate="hurghada_palma_wifi">Free WiFi</li>
+                <li data-translate="hurghada_palma_beachfront">Beachfront</li>
+                <li data-translate="hurghada_palma_family">Family rooms</li>
+                <li data-translate="hurghada_palma_spa">Spa and wellness centre</li>
+                <li data-translate="hurghada_palma_fitness">Fitness centre</li>
+                <li data-translate="hurghada_palma_bar">Bar</li>
+                <li data-translate="hurghada_palma_private_beach">Private beach area</li>
+                <li data-translate="hurghada_palma_breakfast">breakfast</li>
+              </ul>
+              
+
+              </ul>
+
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454">BOOK NOW</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--13 Portfolio item 6 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Giftun Azur Resort</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="images/gefton1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="images/gefton1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="images/gefton2.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="images/gefton2.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/gefton3.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="images/gefton3.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/gefton4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/gefton4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/gefton5.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/gefton5.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hurghada_giftun_desc1">
+                The charming 3-star Giftun Azur Beach Resort Hotel is located in the Mamsha El Seyahi area in Hurghada,
+                about a 13-minute walk from the Marine Sports Club. It features an outdoor swimming pool and views of
+                the sea. All guests can enjoy WiFi in the lobby and access to the health club.
+              </p>
+              
+              <p data-translate="hurghada_giftun_desc2">
+                The resort offers a charming location, a 15-minute drive from Hurghada International Airport. You will
+                be at the hotel 1.1 km from TITO White Beach Resort. Nature lovers will appreciate the proximity to
+                the Red Sea, located 750 meters away. Within 4 km of Giftun Azur Beach Resort, guests will find daily
+                cruises.
+              </p>
+              
+              <p data-translate="hurghada_giftun_desc3">
+                The main restaurant is open daily for breakfast. You can also dine at the à la carte restaurant
+                Oriental with local dishes. This property in Hurghada features a poolside bar. The bar area includes a
+                balcony. There is a dessert restaurant/a dessert shop serving European cuisine about a 17-minute walk
+                away.
+              </p>
+              
+              <p data-translate="hurghada_giftun_desc4">
+                The sunbathing area and sun terrace are available for an additional fee. Giftun Azur Beach Resort
+                welcomes guests to its natural private beach with sun loungers and large parasols. Activities such as
+                diving and tennis can be arranged at Giftun Azur Beach Resort in Hurghada. Wellness facilities include a
+                wellness centre, as well as a jacuzzi and outdoor swimming pool.
+              </p>
+              
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454" data-translate="hurghada_giftun_book_now">BOOK NOW</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--14 Portfolio item 6 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">El Karma Beach Resort & Aqua Park</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="images/karama1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="images/karama1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="images/karama2.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="images/karama2.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/karama3.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="images/karama3.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/karama4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/karama4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/karama5.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/karama5.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hurghada_nubia_desc1">
+                Offering a year-round outdoor pool and a private beach area, Nubia Aqua Beach Resort is located in
+                Hurghada in the Red Sea Region, 17 km from New Marina. The resort offers a spa center and sauna, and
+                guests can enjoy a meal at the restaurant. Private parking is available on site free.
+              </p>
+              
+              <p data-translate="hurghada_nubia_desc2">
+                All rooms come with a flat-screen TV. Some units include a seating area to relax in after an active
+                day. Some rooms feature views of the pool or garden. All rooms are fitted with a private bathroom
+                equipped with a bath or shower. Free toiletries and a dryer are also provided.
+              </p>
+              
+              <p data-translate="hurghada_nubia_desc3">
+                The resort also offers 5 à la carte restaurants serving Lebanese, Russian and Italian dishes, and a
+                Chinese restaurant is located at the front of the hotel.
+              </p>
+              
+              <p data-translate="hurghada_nubia_desc4">
+                An array of activities can be enjoyed on site or in the surroundings, including fishing and cycling,
+                and there is also a children's playground on site.
+              </p>
+              
+              <p data-translate="hurghada_nubia_desc5">
+                There is a 24-hour front desk, a cash machine, babysitting service and hairdresser's at the property.
+              </p>
+              
+              <p data-translate="hurghada_nubia_desc6">
+                The nearest airport is Hurghada International Airport, 18 km from the property.
+              </p>
+              
+              <ul class="list-inline">
+                <li>
+                  <strong data-translate="hurghada_nubia_facilities_title">Most popular facilities</strong>
+                </li>
+                <li> </li>
+                <li data-translate="hurghada_nubia_pool">4 swimming pools</li>
+                <li data-translate="hurghada_nubia_shuttle">Airport shuttle</li>
+                <li data-translate="hurghada_nubia_wifi">Free WiFi</li>
+                <li data-translate="hurghada_nubia_beachfront">Beachfront</li>
+                <li data-translate="hurghada_nubia_family">Family rooms</li>
+                <li data-translate="hurghada_nubia_spa">Spa and wellness centre</li>
+                <li data-translate="hurghada_nubia_tea">Tea/coffee maker in all rooms</li>
+                <li data-translate="hurghada_nubia_bar">Bar</li>
+                <li data-translate="hurghada_nubia_private_beach">Private beach area</li>
+                <li data-translate="hurghada_nubia_breakfast">Breakfast</li>
+              </ul>
+              
+
+              </ul>
+
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454">BOOK NOW</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--15 Portfolio item 6 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Sindbad Club</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="images/sindbad1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="images/sindbad1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="images/sindbad2.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="images/sindbad2.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/sindbad3.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="images/sindbad3.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/sindbad4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/sindbad4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/sindbad5.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/sindbad5.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+
+              <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+              <p data-translate="hurghada_sinbad_desc1">
+                Sinbad Club is located just 15 minutes from Hurghada Airport and includes a water park and a full spa.
+                Guests can enjoy free entry to the water park.
+              </p>
+              
+              <p data-translate="hurghada_sinbad_desc2">
+                All rooms offer air conditioning and satellite TV.
+              </p>
+              
+              <p data-translate="hurghada_sinbad_desc3">
+                The property has 6 swimming pools, including a children's pool with water slides. There is easy access
+                to the sandy beach along the Red Sea, which is just 350 meters from the hotel. There is a fully equipped
+                and medically supervised gym. There is also a sauna, spa pool and relaxing massage sessions. Beauty
+                treatments, henna tattoos and a hair salon are also available.
+              </p>
+              
+              <ul class="list-inline">
+                <li>
+                  <strong data-translate="hurghada_sinbad_facilities_title">Most popular facilities</strong>
+                </li>
+                <li> </li>
+                <li data-translate="hurghada_sinbad_pool">2 swimming pools</li>
+                <li data-translate="hurghada_sinbad_shuttle">Airport shuttle</li>
+                <li data-translate="hurghada_sinbad_wifi">Free WiFi</li>
+                <li data-translate="hurghada_sinbad_beachfront">Beachfront</li>
+                <li data-translate="hurghada_sinbad_family">Family rooms</li>
+                <li data-translate="hurghada_sinbad_spa">Spa and wellness centre</li>
+                <li data-translate="hurghada_sinbad_tea">Tea/coffee maker in all rooms</li>
+                <li data-translate="hurghada_sinbad_fitness">Fitness centre</li>
+                <li data-translate="hurghada_sinbad_bar">Bar</li>
+                <li data-translate="hurghada_sinbad_private_beach">Private beach area</li>
+                <li data-translate="hurghada_sinbad_breakfast">Breakfast</li>
+              </ul>
+              
+
+              </ul>
+
+              <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454">BOOK NOW</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--16 Portfolio item 6 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="modal-body">
+                <!-- Project details -->
+                <h2 class="text-uppercase">Serry Beach Resort</h2>
+                <p class="item-intro text-muted">Hurghada</p>
+
+                <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+                  data-mdb-auto-height="true">
+                  <div class="row py-3 shadow-5">
+                    <div class="col-12 mb-1">
+                      <a href="images/serry1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                        <img src="images/serry1.jpg" alt="Gallery image 1"
+                          class="ecommerce-gallery-main-img active w-100" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 mt-1">
+                      <a href="images/serry2.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                        <img src="images/serry2.jpg" alt="Gallery image 2" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/serry3.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                        <img src="images/serry3.jpg" alt="Gallery image 3" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/serry4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/serry4.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                    <div class="col-3 mt-1">
+                      <a href="images/serry5.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                        <img src="images/serry5.jpg" alt="Gallery image 4" class="w-100" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                  
+              </div>
+            </div>
+
+            <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+            <p data-translate="hurghada_serry_desc1">
+              Well located in the centre of Hurghada, Serry Beach Resort provides air-conditioned rooms, an outdoor
+              swimming pool, free WiFi and a fitness centre. Among the various facilities of this property are a
+              terrace, a bar and a tennis court. The accommodation offers a kids' club, room service and currency
+              exchange for guests.
+            </p>
+            
+            <p data-translate="hurghada_serry_desc2">
+              Guest rooms at the hotel are equipped with a flat-screen TV with satellite channels and a safety deposit
+              box. Each room has a kettle and a private bathroom with a shower and free toiletries, while selected rooms
+              come with a kitchenette equipped with a microwave. At Serry Beach Resort each room is fitted with bed
+              linen and towels.
+            </p>
+            
+            <p data-translate="hurghada_serry_desc3">
+              At the accommodation you will find a restaurant serving African, Middle Eastern and Seafood cuisine.
+              Vegetarian, halal and gluten-free options can also be requested.
+            </p>
+            
+            <p data-translate="hurghada_serry_desc4">
+              Serry Beach Resort offers a children's playground. You can play billiards, table tennis, and darts at the
+              5-star hotel.
+            </p>
+            
+            <p data-translate="hurghada_serry_desc5">
+              Speaking Arabic, German, English and French, staff at the reception can help you plan your stay.
+            </p>
+            
+            <p data-translate="hurghada_serry_desc6">
+              Popular points of interest near the hotel include Marina Sports Club Beach, TITO White Beach and
+              Steigenberger Al Dau Beach. The nearest airport is Hurghada International, 1 km from Serry Beach Resort,
+              and the property offers a paid airport shuttle service.
+            </p>
+            
+            <ul class="list-inline">
+              <li>
+                <strong data-translate="hurghada_serry_facilities_title">Most popular facilities</strong>
+              </li>
+              <li> </li>
+              <li data-translate="hurghada_serry_pool">Outdoor swimming pool</li>
+              <li data-translate="hurghada_serry_wifi">Free WiFi</li>
+              <li data-translate="hurghada_serry_shuttle">Airport shuttle</li>
+              <li data-translate="hurghada_serry_beachfront">Beachfront</li>
+              <li data-translate="hurghada_serry_family">Family rooms</li>
+              <li data-translate="hurghada_serry_spa">Spa and wellness centre</li>
+              <li data-translate="hurghada_serry_fitness">Fitness centre</li>
+              <li data-translate="hurghada_serry_bar">Bar</li>
+              <li data-translate="hurghada_serry_private_beach">Private beach area</li>
+              <li data-translate="hurghada_serry_breakfast">Breakfast</li>
+            </ul>
+            
+
+            </ul>
+
+            <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454">BOOK NOW</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!--17 Portfolio item 6 modal popup-->
+  <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+        <div class="container">
+          <div class="modal-body">
+            <!-- Project details -->
+            <h2 class="text-uppercase">Amwaj Beach Club Abu Soma</h2>
+            <p class="item-intro text-muted">Hurghada</p>
+
+            <div class="ecommerce-gallery" data-mdb-ecommerce-gallery-init data-mdb-zoom-effect="true"
+              data-mdb-auto-height="true">
+              <div class="row py-3 shadow-5">
+                <div class="col-12 mb-1">
+                  <a href="images/amwaj1.jpg" data-fancybox="gallery" data-caption="Gallery image 1">
+                    <img src="images/amwaj1.jpg" alt="Gallery image 1"
+                      class="ecommerce-gallery-main-img active w-100" />
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3 mt-1">
+                  <a href="images/amwaj2.jpg" data-fancybox="gallery" data-caption="Gallery image 2">
+                    <img src="images/amwaj2.jpg" alt="Gallery image 2" class="w-100" />
+                  </a>
+                </div>
+                <div class="col-3 mt-1">
+                  <a href="images/amwaj3.jpg" data-fancybox="gallery" data-caption="Gallery image 3">
+                    <img src="images/amwaj3.jpg" alt="Gallery image 3" class="w-100" />
+                  </a>
+                </div>
+                <div class="col-3 mt-1">
+                  <a href="images/amwaj4.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                    <img src="images/amwaj4.jpg" alt="Gallery image 4" class="w-100" />
+                  </a>
+                </div>
+                <div class="col-3 mt-1">
+                  <a href="images/amwaj5.jpg" data-fancybox="gallery" data-caption="Gallery image 4">
+                    <img src="images/amwaj5.jpg" alt="Gallery image 4" class="w-100" />
+                  </a>
+                </div>
+              </div>
+                
+            </div>
+          </div>
+
+          <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />-->
+          <p data-translate="safaga_amwaj_desc1">
+            Located in Safaga, Amwaj Beach Club Abu Soma is a luxurious accommodation offering views of the Red Sea and
+            a private beach. There are two swimming pools within the gardens, as well as a fitness center and spa.
+          </p>
+          
+          <p data-translate="safaga_amwaj_desc2">
+            All rooms at the Amwaj Beach Club Abu Soma include a private balcony or terrace with a view of either Soma
+            Bay or the hotel's gardens and swimming pools. It is also air-conditioned, satellite TV and a hairdryer.
+          </p>
+          
+          <p data-translate="safaga_amwaj_desc3">
+            Guests at Amwaj Beach Club Abu Soma can dine at Culina Restaurant, while there is also a poolside bar
+            serving light snacks and drinks.
+          </p>
+          
+          <p data-translate="safaga_amwaj_desc4">
+            Entertainment options at the Amwaj Beach Club Abu Soma include water sports such as diving, in addition to
+            football, volleyball and tennis courts. The fitness and spa center also offers a fully equipped fitness club
+            and a full range of health and beauty treatments.
+          </p>
+          
+          <p data-translate="safaga_amwaj_desc5">
+            Amwaj Beach Club Abu Soma is located 48 km south of Hurghada International Airport.
+          </p>
+          
+          <ul class="list-inline">
+            <li>
+              <strong data-translate="safaga_amwaj_facilities_title">Most popular facilities</strong>
+            </li>
+            <li> </li>
+            <li data-translate="safaga_amwaj_pool">3 swimming pools</li>
+            <li data-translate="safaga_amwaj_wifi">Free WiFi</li>
+            <li data-translate="safaga_amwaj_shuttle">Airport shuttle</li>
+            <li data-translate="safaga_amwaj_beachfront">Beachfront</li>
+            <li data-translate="safaga_amwaj_family">Family rooms</li>
+            <li data-translate="safaga_amwaj_spa">Spa and wellness centre</li>
+            <li data-translate="safaga_amwaj_fitness">Fitness centre</li>
+            <li data-translate="safaga_amwaj_bar">Bar</li>
+            <li data-translate="safaga_amwaj_private_beach">Private beach area</li>
+            <li data-translate="safaga_amwaj_breakfast">Breakfast</li>
+          </ul>
+          
+
+          </ul>
+
+          <a class="btn btn-primary btn-xl text-uppercase" href="https://wa.me/+201153535454">BOOK NOW</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <!-- * *                               SB Forms JS                               * *-->
+  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {};
+    Tawk_API.customStyle = {
+      visibility: {
+        desktop: {
+          position: 'bl' // bottom left
+        },
+        mobile: {
+          position: 'bl' // bottom left
+        },
+        tablet: {
+          position: 'bl' // bottom left
+        }
+      }
+    };
+    var Tawk_LoadStart = new Date();
+    (function(){
+      var s1=document.createElement("script"),
+          s0=document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/68d1ae1b9599991924058af3/1j5ph0739';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+</body>
+
+</html>

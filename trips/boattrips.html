@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="To book hotels in hurghada" />
+    <meta name="author" content="" />
+    <title>CoralFun Travel - BoatTrips</title>
+    <!-- Favicon-->
+    <link href="../assets/img/logoNew.PNG" rel="icon">
+    <link href="../assets/img/logoNew.PNG" rel="apple-touch-icon">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+    <!-- Custom CSS and Bootstrap -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body id="page-top">
+    <!-- Popup Container Help  -->
+    <div class="pop-up-bg" id="pop-up-bg">
+
+        <div id="help-popup" class="popup">
+            <div class="popup-content d-flex flex-column gap-3">
+                <span id="close-popup" class="close-button fs-3">&times;</span>
+                <p data-translate="help-text">If you have not found what you are looking for, please do not hesitate to
+                    write to us and we will help you as soon as possible!</p>
+                <button class="btn border-black btn-book w-100" data-translate="send-whatsapp-btn"><a
+                        href="https://wa.me/+201153535454" class="text-decoration-none">Send WhatsApp</a></button>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+    <div class="position-fixed whatsapp-float" style="bottom: 20px; right: 20px; z-index: 10000;">
+        <a class="navbar-brand text-center text-white" href="https://wa.me/+201153535454" target="_blank">
+          <img src="../assets/img/whatsapp.png" alt="WhatsApp" width="60" height="60" class="whatsapp-icon">
+        </a>
+      </div>
+    <!-- Navigation-->
+
+
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm" id="mainNav"
+    style="backdrop-filter: blur(2px); background: rgba(33, 37, 41, 0.6); height: 100px;">
+  <div class="container-fluid px-3 d-flex align-items-center justify-content-between">
+
+    <!-- Left side: Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="../index.html">
+      <img src="../assets/img/Sky_logo.png" alt="..." class="nav-logo" style="height:45px;" />
+    </a>
+
+    <!-- Center: Language Flags -->
+    <div class="d-flex align-items-center order-lg-2">
+      <a href="boattrips.html" onclick="changeLanguage('en')" class="px-1">
+        <img src="../assets/img/lang1.png" alt="English" class="flag-icon" style="height:24px; width: 24px;">
+      </a>
+      <a href="#" onclick="changeLanguage('ru')" class="px-1">
+        <img src="../assets/img/lang2.jpg" alt="Polski" class="flag-icon" style="height:24px; width: 24px">
+      </a>
+      <a href="#" onclick="changeLanguage('gr')" class="px-1">
+        <img src="../assets/img/german.png" alt="German" class="flag-icon" style="height:24px; width: 24px">
+      </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="navbar-toggler text-white border-0 order-lg-3" type="button" data-bs-toggle="offcanvas"
+      data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars fa-lg"></i>
+    </button>
+
+    <!-- Desktop Menu -->
+    <div class="collapse navbar-collapse order-lg-4" id="navbarNavDropdown">
+      <ul class="navbar-nav text-uppercase ms-auto align-items-lg-center">
+
+        <li class="nav-item">
+          <a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" href="../index.html" data-translate="home">
+            <i class="fa-solid fa-house"></i> Home
+          </a>
+        </li>
+
+        <!-- Trips Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle px-3 fw-semibold text-warning d-flex align-items-center gap-2"
+             id="trips" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-translate="trips">
+            <i class="fa-solid fa-plane-departure"></i> Trips
+          </a>
+          <ul class="dropdown-menu border-0 shadow-lg rounded-4 animate__animated animate__fadeInDown">
+            <li><a class="dropdown-item py-2" href="../travels_cairo.html"><i class="fa-solid fa-city me-2 text-warning"></i> Cairo Travel</a></li>
+            <li><a class="dropdown-item py-2" href="../travels_luxor.html"><i class="fa-solid fa-landmark me-2 text-warning"></i> Luxor Travel</a></li>
+            <li><a class="dropdown-item py-2" href="#"><i class="fa-solid fa-sailboat me-2 text-warning"></i> Sea Trips</a></li>
+            <li><a class="dropdown-item py-2" href="../trips/safari.html"><i class="fa-solid fa-car-side me-2 text-warning"></i> Safari</a></li>
+            <li><a class="dropdown-item py-2" href="../trips/diving.html"><i class="fa-solid fa-water me-2 text-warning"></i> Diving</a></li>
+            <li><a class="dropdown-item py-2" href="../trips/seaact.html"><i class="fa-solid fa-umbrella-beach me-2 text-warning"></i> Things to Do</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" href="../Hotels.html"><i class="fa-solid fa-hotel"></i> Hotels</a></li>
+        <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" href="../transport.html"><i class="fa-solid fa-bus"></i> Transport</a></li>
+        <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" data-translate="about" href="../About.html"><i class="fa-solid fa-circle-info"></i> About</a></li>
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Offcanvas Menu for Mobile -->
+
+<div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header border-bottom border-secondary">
+      <h5 class="offcanvas-title text-warning fw-bold" id="mobileMenuLabel" data-translate="menu">Menu</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+  
+    <div class="offcanvas-body">
+      <ul class="navbar-nav text-uppercase">
+  
+        <li>
+          <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="../index.html" data-translate="home">
+            <i class="fa-solid fa-house me-2"></i> Home
+          </a>
+        </li>
+  
+        <!-- Trips Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-warning fw-semibold d-flex align-items-center gap-2" href="#" id="trips-mobile" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-translate="trips">
+            <i class="fa-solid fa-plane-departure me-2"></i> Trips
+          </a>
+          <ul class="dropdown-menu bg-dark border-0 shadow">
+            <li><a class="dropdown-item text-light" href="../travels_cairo.html" data-translate="cairoTravel">Cairo Travel</a></li>
+            <li><a class="dropdown-item text-light" href="../travels_luxor.html" data-translate="luxorTravel">Luxor Travel</a></li>
+            <li><a class="dropdown-item text-light" href="../trips/boattrips.html" data-translate="seaTrips">Sea Trips</a></li>
+            <li><a class="dropdown-item text-light" href="../trips/safari.html" data-translate="safari">Safari</a></li>
+            <li><a class="dropdown-item text-light" href="../trips/diving.html" data-translate="diving">Diving</a></li>
+            <li><a class="dropdown-item text-light" href="../trips/seaact.html" data-translate="thingsToDo">Things to Do</a></li>
+          </ul>
+        </li>
+  
+        <li>
+          <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="../Hotels.html" data-translate="hotels">
+            <i class="fa-solid fa-hotel me-2"></i> Hotels
+          </a>
+        </li>
+        <li>
+          <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="../transport.html" data-translate="transport">
+            <i class="fa-solid fa-bus me-2"></i> Transport
+          </a>
+        </li>
+        <li>
+          <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="../About.html" data-translate="about">
+            <i class="fa-solid fa-circle-info me-2"></i> About
+          </a>
+        </li>
+  
+      </ul>
+    </div>
+  </div>
+    <!-- End NavBar -->
+
+    <!-- Masthead-->
+    <!-- <header class="masthead">
+        <div class="container">
+            <div class="masthead-subheading">
+                <h1>Czar Egiptu</h1>
+                <P>RED SEA CLASSIC</P>
+            </div>
+            <div class="masthead-heading ">
+                <p class="text-uppercase">Your Best Choice</p>
+                <a class="btn btn-primary book-btn text-uppercase" href="https://wa.me/+201153535454">book now</a>
+            </div>
+        </div>
+    </header> -->
+    <!-- End Masthead-->
+    <div class="cards my-5">
+        <div class="container">
+            <div class="row d-flex m-auto">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/seaimg/orange.jpg" class="card-img-top" alt="...">
+                            <div
+                                class="caption text-center text-white position-absolute text-center d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                                <h1 data-translate="modalhurghadapage_orangebay_title">ORANGE BAY</h1>
+                                <p data-translate="modalhurghadapage_orangebay_price">Bester Preis pro Person</p>
+                                <span class="bg-white w-100 mb-3"></span>
+                                <h3 >20.00 EUR</h3>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" data-translate="modalhurghadapage_orangebay_subtitle">Orange
+                                Bay</h5>
+                            <p class="card-text ms-4 fst-italic"
+                                data-translate="modalhurghadapage_orangebay_favorite_trip">Your Favourite Trip!</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize"
+                                data-translate="modalhurghadapage_orangebay_duration">• Duration 7 - 8 Hours</li>
+                            <li class="list-group-item text-capitalize"
+                                data-translate="modalhurghadapage_orangebay_snorkelling">• Schnorcheln + Ausrüstung</li>
+                            <li class="list-group-item text-capitalize"
+                                data-translate="modalhurghadapage_orangebay_food_drinks">• Soft & Heißgetränke und
+                                Buffet-Mittagessen auf dem Boot</li>
+                            <li class="list-group-item text-capitalize"
+                                data-translate="modalhurghadapage_orangebay_pickup">• Abholung & Rücktransport zum Hotel
+                            </li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center gap-2">
+                            <button class="btn border-black btn-book w-100">
+                                <a href="https://wa.me/+201153535454" class="text-decoration-none"
+                                    data-translate="modalhurghadapage_orangebay_booknow">Book Now </a>
+                            </button>
+                            <a class="text-decoration-none w-100 btn border-black btn-book" href="../sea_trip/travels_sea_orange.html"
+                            data-translate="travel-cairo-more-details">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/seaimg/paradise.jpg" class="card-img-top" alt="...">
+                            <div
+                                class="caption text-center text-white position-absolute text-center d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                                <h1 data-translate="paradise_island">PARADISE ISLAND</h1>
+                                <p data-translate="best_price">Best Price For Person</p>
+                                <span class="bg-white w-100 mb-3"></span>
+                                <h3>60.00 EUR</h3>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" data-translate="paradise_island">Paradise Island</h5>
+                            <p class="card-text ms-4 fst-italic" data-translate="your_favourite_trip">Your Favourite
+                                Trip!
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize" data-translate="durationd">• duration 7 - 8 hours
+                            </li>
+                            <li class="list-group-item text-capitalize" data-translate="snorkelling">• snorkelling +
+                                equipments</li>
+                            <li class="list-group-item text-capitalize" data-translate="drinks_and_lunch">• soft & hot
+                                drinks, and buffet lunch on boat</li>
+                            <li class="list-group-item text-capitalize" data-translate="pickup">• pick up & drop off to
+                                your
+                                hotel</li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center gap-2">
+                            <button class="btn border-black btn-book w-100"><a href="https://wa.me/+201153535454"
+                                    class="text-decoration-none " data-translate="book_now">Book Now</a></button>
+                                    <a class="text-decoration-none w-100 btn border-black btn-book" href="../sea_trip/travels_sea_paradise.html"
+                                    data-translate="travel-cairo-more-details">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/seaimg/eden8.jpg" class="card-img-top" alt="...">
+                            <div
+                                class="caption text-center text-white position-absolute text-center d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                                <h1 data-translate="boattrips_edenisland_title">EDEN ISLAND</h1>
+                                <p data-translate="boattrips_best_price">Best Price For Person</p>
+                                <span class="bg-white w-100 mb-3"></span>
+                                <h3 >65.00 EUR</h3>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" data-translate="boattrips_edenisland_title_small">Eden Island
+                            </h5>
+                            <p class="card-text ms-4 fst-italic" data-translate="boattrips_favourite_trip">Your
+                                Favourite Trip!</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_duration">• duration 7
+                                - 8 hours</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_snorkelling">•
+                                snorkelling + equipments</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_drinks_and_lunch">•
+                                soft & hot drinks, and buffet lunch on boat</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_pickup">• pick up &
+                                drop off to your hotel</li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center">
+                            <button class="btn border-black btn-book w-100"><a href="https://wa.me/+201153535454"
+                                    class="text-decoration-none" data-translate="boattrips_book_now">Book
+                                    Now</a></button>
+                                    <a class="text-decoration-none w-100 btn border-black btn-book" href="../sea_trip/travels_sea_Elden.html"
+                            data-translate="travel-cairo-more-details">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                      <div class="img-info position-relative overflow-hidden">
+                        <img src="../assets/seaimg/hula.jpg" class="card-img-top" alt="Hula Hula Island">
+                        <div class="caption text-center text-white position-absolute d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                          <h1 data-translate="holahola_island">Hula Hula ISLAND</h1>
+                          <p data-translate="best_price_holahola">Best Price For Person</p>
+                          <span class="bg-white w-100 mb-3"></span>
+                          <h3>$20.00</h3>
+                        </div>
+                      </div>
+                  
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold" data-translate="holahola_island">Hula Hula Island</h5>
+                        <p class="card-text ms-4 fst-italic" data-translate="holahola_fav_trip">A unique Red Sea experience!</p>
+                      </div>
+                  
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-capitalize" data-translate="holahola_duration">• Duration 7 - 8 hours</li>
+                        <li class="list-group-item text-capitalize" data-translate="holahola_snorkelling">• Snorkelling + equipment</li>
+                        <li class="list-group-item text-capitalize" data-translate="holahola_food">• Soft & hot drinks, BBQ lunch on boat</li>
+                        <li class="list-group-item text-capitalize" data-translate="holahola_pickup">• Pick up & drop off from your hotel</li>
+                      </ul>
+                  
+                      <div class="card-body d-flex justify-content-center gap-2">
+                        <a href="https://wa.me/+201153535454" 
+                           class="btn border-black btn-book w-100 text-decoration-none"
+                           data-translate="book_now_holahola">Book Now</a>
+                           <a class="text-decoration-none w-100 btn border-black btn-book" href="../sea_trip/travels_sea_hula.html"
+                            data-translate="travel-cairo-more-details">More Details</a>
+                           
+                  
+                     
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/seaimg/mahmya.jpg" class="card-img-top" alt="...">
+                            <div
+                                class="caption text-center text-white position-absolute text-center d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                                <h1 data-translate="boattrips_mahmyaisland_title">MAHMYA ISLAND</h1>
+                                <p data-translate="boattrips_best_price">Best Price For Person</p>
+                                <span class="bg-white w-100 mb-3"></span>
+                                <h3>80.00 EUR</h3>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" data-translate="boattrips_mahmyaisland_title_small">Mahmya
+                                Island</h5>
+                            <p class="card-text ms-4 fst-italic" data-translate="boattrips_favourite_trip">Your
+                                Favourite Trip!</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_duration">• duration 7
+                                - 8 hours</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_snorkelling">•
+                                snorkelling + equipments</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_drinks_and_lunch">•
+                                soft & hot drinks, and buffet lunch on boat</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_pickup">• pick up &
+                                drop off to your hotel</li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center gap-2">
+                            <button class="btn border-black btn-book w-100"><a href="https://wa.me/+201153535454"
+                                    class="text-decoration-none" data-translate="boattrips_book_now">Book
+                                    Now</a></button>
+                                <a class="text-decoration-none w-100 btn border-black btn-book" href="../sea_trip/travels_sea_mahyma.html"
+                            data-translate="travel-cairo-more-details">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100 h-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/seaimg/aquer.jpg" class="card-img-top" alt="...">
+                            <div
+                                class="caption text-center text-white position-absolute text-center d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                                <h1 data-translate="boattrips_aquarium_title">Aquarium</h1>
+                                <p data-translate="boattrips_best_price">Best Price For Person</p>
+                                <span class="bg-white w-100 mb-3"></span>
+                                <h3 >27.00 EUR</h3>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" data-translate="boattrips_aquarium_title_small">Aquarium</h5>
+                            <p class="card-text ms-4 fst-italic" data-translate="boattrips_favourite_trip">Your
+                                Favourite Trip!</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_duration_short">•
+                                duration 2 hours</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_entry">• entry</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_transfer">• we have
+                                transfer</li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <button class="btn border-black btn-book w-100"><a href="https://wa.me/+201153535454"
+                                    class="text-decoration-none" data-translate="boattrips_book_now">Book
+                                    Now</a></button>
+                                <a class="text-decoration-none w-100 btn border-black btn-book" href="../sea_trip/travels_sea_aquriem.html"
+                            data-translate="travel-cairo-more-details">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/trips img/dolphin world.jpg" class="card-img-top" alt="...">
+                            <div
+                                class="caption text-center text-white position-absolute text-center d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                                <h1 data-translate="boattrips_dolphinworld_title">Dolphin World</h1>
+                                <p data-translate="boattrips_best_price">Best Price For Person</p>
+                                <span class="bg-white w-100 mb-3"></span>
+                                <h3 >20.00 EUR</h3>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" data-translate="boattrips_dolphinworld_title_small">Dolphin
+                                World</h5>
+                            <p class="card-text ms-4 fst-italic" data-translate="boattrips_favourite_trip">Your
+                                Favourite Trip!</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_duration_medium">•
+                                duration 1.5 - 2 hours</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_entry">• entry</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_swim_with_dolphin">•
+                                not included swimming with dolphin ... Private price for swimming with dolphin</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_video_pictures">•
+                                available video and pictures</li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center gap-2">
+                            <button class="btn border-black btn-book w-100"><a href="https://wa.me/+201153535454"
+                                    class="text-decoration-none" data-translate="boattrips_book_now">Book
+                                    Now</a></button>
+                                    <a class="text-decoration-none w-100 btn border-black btn-book" href="../sea_trip/travels_sea_dolphin1.html"
+                                    data-translate="travel-cairo-more-details">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+
+
+
+            <h1 class="text-center fs-1 fw-bold my-5" data-translate="boattrips_submarine_title">Submarine</h1>
+            <div class="row d-flex m-auto">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/trips img/sindbadmarine.jpeg" class="card-img-top" alt="...">
+                            <div
+                                class="caption text-center text-white position-absolute text-center d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                                <h1 data-translate="boattrips_royal_submarine_title">Royal sea scope Submarine</h1>
+                                <p data-translate="boattrips_best_price">Best Price For Person</p>
+                                <span class="bg-white w-100 mb-3"></span>
+                                <h3 >20.00 EUR</h3>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" data-translate="boattrips_royal_submarine_title_small">Royal
+                                sea scope Submarine</h5>
+                            <p class="card-text ms-4 fst-italic" data-translate="boattrips_favourite_trip">Your
+                                Favourite Trip!</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_pickup_times_royal">•
+                                Pick up at 10:00 am & 11:00 am & 15:00</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_transfer">• Transfer
+                            </li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_welcome_drink">•
+                                Welcome Drink</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_free_snorkeling">•
+                                Inclusive 30 min Snorkel for free</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_swimming_equipment">•
+                                swimming equipment ( Mask-Fins- Life Jacket )</li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center gap-2">
+                            <button class="btn border-black btn-book w-100"><a href="https://wa.me/+201153535454"
+                                    class="text-decoration-none" data-translate="boattrips_book_now">Book
+                                    Now</a></button>
+                                    <a class="text-decoration-none w-100 btn border-black btn-book" href="../sea_trip/travels_sea_sup1.html"
+                                    data-translate="travel-cairo-more-details">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/seaimg/sindbad-submarine.jpg" class="card-img-top" alt="...">
+                            <div
+                                class="caption text-center text-white position-absolute text-center d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                                <h1 data-translate="boattrips_sindbad_submarine_title">Sindbad Submarine</h1>
+                                <p data-translate="boattrips_best_price">Best Price For Person</p>
+                                <span class="bg-white w-100 mb-3"></span>
+                                <h3>30.00 EUR</h3>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" data-translate="boattrips_sindbad_submarine_title_small">
+                                Sindbad Submarine</h5>
+                            <p class="card-text ms-4 fst-italic" data-translate="boattrips_favourite_trip">Your
+                                Favourite Trip!</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_pickup_times_sindbad">
+                                • Start Time: 09:00 , 11:00 , 13:00 , 15:00</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_dive_depth">• Dive Up
+                                To 25 meters for about 25 minutes</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_english_speakers">•
+                                English speakers</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_hurghada_transport">•
+                                transport service in Hurghada</li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center gap-2">
+                            <button class="btn border-black btn-book w-100"><a href="https://wa.me/+201153535454"
+                                    class="text-decoration-none" data-translate="boattrips_book_now">Book
+                                    Now</a></button>
+                                    <a class="text-decoration-none w-100 btn border-black btn-book" href="../sea_trip/travels_sea_sup2.html"
+                                    data-translate="travel-cairo-more-details">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/trips img/privateglassboat.jpg" class="card-img-top" alt="...">
+                            <div
+                                class="caption text-center text-white position-absolute text-center d-flex flex-column justify-content-center align-items-center w-100 h-100">
+                                <h1 data-translate="boattrips_glassboat_title">Private Glass Boat</h1>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" data-translate="boattrips_glassboat_title_small">Private
+                                Glass Boat</h5>
+                            <p class="card-text ms-4 fst-italic">(max 6 person)</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_duration">• Duration -
+                                3 hours</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_transfer">• Transfer
+                            </li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_life_jacket">• Life
+                                jacket</li>
+                            <li class="list-group-item text-capitalize" data-translate="boattrips_snorkeling_equipment">
+                                • Snorkeling equipment</li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center gap-2">
+                            <button class="btn border-black btn-book w-100"><a href="https://wa.me/+201153535454"
+                                    class="text-decoration-none" data-translate="boattrips_book_now">Book
+                                    Now</a></button>
+                                    <a class="text-decoration-none w-100 btn border-black btn-book" href="../sea_trip/travels_sea_sup3.html"
+                                    data-translate="travel-cairo-more-details">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="text-center fs-1 fw-bold my-5" data-translate="fish_trip_title">Fish Trip By Boat</h1>
+            <div class="row d-flex m-auto">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/seaimgs/fish1.jpg" class="card-img-top" alt="...">
+                            
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" data-translate="fish_trip_card_title">Fish Trip</h5>
+                            <p class="card-text ms-4 fst-italic" data-translate="fish_trip_card_description">Your
+                                Favourite Trip!</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_1">• Trip
+                                fishing from 8.30 to 4 clock only Friday</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_2">• Transfer
+                                from your hotel to the show harbor and back</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_3">• Transfer
+                                in an air-conditioned vehicle.</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_4">• An
+                                exciting Hurghada fishing day trip</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_5">• All
+                                fishing and snorkeling equipment</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_6">• Boat trip
+                            </li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_7">• English
+                                speaking guide</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_8">• Two
+                                Fishing stops</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_9">• Sumptuous
+                                lunch</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_10">• Two
+                                Fishing stop</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_11">• Life
+                                Jacket</li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center gap-2">
+                            <button class="btn border-black btn-book w-100">
+                                <a href="https://wa.me/+201153535454" class="text-decoration-none"
+                                    data-translate="fish_trip_book_now">Book Now</a>
+                            </button>
+                            <a class="text-decoration-none w-100 btn border-black btn-book" href="../sea_trip/travels_sea_fish.html"
+                            data-translate="travel-cairo-more-details">More Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card w-100">
+                        <div class="img-info position-relative overflow-hidden">
+                            <img src="../assets/seaimgs/fish2.jpg" class="card-img-top" alt="...">
+                         
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" data-translate="fish_trip_card_title">Fish Trip</h5>
+                            <p class="card-text ms-4 fst-italic" data-translate="fish_trip_card_description">Your
+                                Favourite Trip!</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_1">• 1 day
+                            </li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_2">• Transfer
+                                from your hotel to the show harbor and back</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_3">• Transfer
+                                in an air-conditioned vehicle.</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_4">• An
+                                exciting Hurghada fishing day trip</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_5">• All
+                                fishing and snorkeling equipment</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_6">• Boat trip
+                            </li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_7">• English
+                                speaking guide</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_8">• Two
+                                Fishing stops</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_9">• Sumptuous
+                                lunch</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_10">• Two
+                                Fishing stop</li>
+                            <li class="list-group-item text-capitalize" data-translate="fish_trip_details_11">• Life
+                                Jacket</li>
+                        </ul>
+                        <div class="card-body d-flex justify-content-center gap-2">
+                            <button class="btn border-black btn-book w-100">
+                                <a href="https://wa.me/+201153535454" class="text-decoration-none"
+                                    data-translate="fish_trip_book_now">Book Now</a>
+                            </button>
+                            <a class="text-decoration-none w-100 btn border-black btn-book" href="../sea_trip/travels_sea_fish.html"
+                            data-translate="travel-cairo-more-details">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- Modal Orange Bay -->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <div class="container d-flex justify-content-start">
+                <span class="close" data-translate="close_button">&times;</span>
+            </div>
+            <div class="container">
+                <h2 data-translate="program_title">Program of Orange Bay Hurghada Snorkeling Trip</h2>
+
+                <p data-translate="snorkeling_stops">2 snorkeling Stops</p>
+                <p data-translate="orange_bay_stop">2 hour stop on Orange Bay Island</p>
+                <p data-translate="lunch">Lunch</p>
+                <p data-translate="banana_ride">Banana ride</p>
+
+                <h3 data-translate="schedule_title">Schedule of Orange Bay Hurghada Snorkeling Trip</h3>
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover table-condensed">
+                        <tr>
+                            <th data-translate="time">Time</th>
+                            <th data-translate="program">Program</th>
+                        </tr>
+                        <tr>
+                            <td>⏰ 08:30</td>
+                            <td data-translate="pickup_hotel">Pick up from the hotel</td>
+                        </tr>
+                        <tr>
+                            <td>⏰ 09:00</td>
+                            <td data-translate="takeoff_orange_bay">Take off to Orange Bay</td>
+                        </tr>
+                        <tr>
+                            <td>⏰ 16:00</td>
+                            <td data-translate="return_port">Return to port</td>
+                        </tr>
+                        <tr>
+                            <td>⏰ 16:10</td>
+                            <td data-translate="departure_hotel">Departure to the hotel</td>
+                        </tr>
+                        <tr>
+                            <td>⏰ 17:00</td>
+                            <td data-translate="back_hotel">Back at the hotel</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3 data-translate="description_title">Description for Orange Bay Hurghada Snorkeling Trip</h3>
+
+                <p data-translate="pickup_description">At around 8:30 we will pick you up from your hotel and take you
+                    to the pier. On a luxuriously equipped boat we sail to the Orange Bay Island.</p>
+
+                <p data-translate="snorkel_coral">During the trip, you will snorkel on beautiful coral reefs. Next, we
+                    will take you to Orange Bay Island by small boat.</p>
+
+                <p data-translate="two_hours">You will spend about 2 hours on Orange Bay Island. Relax on the beautiful
+                    sandy beach or go snorkeling around the island.</p>
+
+                <p data-translate="lunch_boat_trip">We then leave the island and take a boat trip to enjoy lunch, then
+                    continue by boat for a second snorkeling trip.</p>
+
+                <p data-translate="return_pier">At about 16:00 we return to the pier and the driver will be waiting for
+                    us there, who will take us to the hotel.</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Orange Bay -->
+
+    <!-- MOdal Paradise island Translateeeeeeed -->
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <div class="container d-flex justify-content-start">
+                <span class="close">&times;</span>
+            </div>
+            <div class="container">
+                <h2 data-translate="paradise_snorkeling">Paradise Island Snorkeling Day Tour</h2>
+                <p data-translate="snorkeling_description_1">Enjoy unforgettable swimming on the private beach on
+                    Paradise Island and a relaxing boat trip on the Red Sea...</p>
+                <p data-translate="snorkeling_description_2">Paradise Island is a nature reserve in the Red Sea off
+                    Hurghada and offers its visitors white sandy beaches...</p>
+                <p data-translate="snorkeling_description_3">Swim and snorkel with an incredible variety of different
+                    fish and discover the unique underwater world...</p>
+                <h3 data-translate="paradise_program">Program of Paradise Island Snorkeling Day Tour</h3>
+                <ul>
+                    <li data-translate="boat_trip">Boat trip with a snorkel stop</li>
+                    <li data-translate="island_stay">Stay on the island</li>
+                    <li data-translate="folklore_show">Folklore show</li>
+                </ul>
+                <h3 data-translate="paradise_description">Description for Paradise Island Snorkeling Day Tour</h3>
+                <p data-translate="paradise_snorkeling_program_1">We will pick you up from your hotel in a fully
+                    air-conditioned vehicle and transfer you to the port where your snorkeling excursion begins...</p>
+                <p data-translate="paradise_snorkeling_program_2">Admire the colorful corals and swim with a variety of
+                    exotic fish...</p>
+                <p data-translate="paradise_snorkeling_program_3">After a snorkeling stop, we will continue to Paradise
+                    Island...</p>
+            </div>
+        </div>
+    </div>
+    <!-- End MOdal Paradise island -->
+
+    <!-- Modal Mahmaya Island -->
+    <div class="modal" id="modal3">
+        <div class="modal-content">
+            <div class="container d-flex justify-content-start">
+                <span class="close" data-translate="boattrips_close">&times;</span>
+            </div>
+            <div class="container">
+                <h2 data-translate="boattrips_program_title">Mahmya Island Hurghada Snorkeling Trip</h2>
+
+                <p data-translate="boattrips_snorkeling">Snorkeling at Mahmya Island</p>
+                <p data-translate="boattrips_lunch">Lunch</p>
+
+                <h3 data-translate="boattrips_description_title">Description for Mahmya Island Hurghada Snorkeling Trip
+                </h3>
+
+                <p data-translate="boattrips_pickup_description">In the morning we will pick you up from your hotel and
+                    take you to the pier. On board, you will be greeted by a friendly crew who will provide you with
+                    snorkel equipment (mask and fins) for an exciting snorkeling adventure. Dive into the pristine
+                    underwater world and enjoy a variety of snorkeling spots!</p>
+
+                <p data-translate="boattrips_sail_red_sea">Set sail for the Red Sea, where the captain plots a course
+                    for Mahmya Island. Upon arrival, disembark to explore the picturesque island and unique natural
+                    landscape. Then enjoy a hearty buffet lunch at the waterfront restaurant.</p>
+
+                <p data-translate="boattrips_after_lunch">After lunch on Mahmya Island, you will have the opportunity to
+                    snorkel in the azure waters or feel the fine sand between your toes as you stroll along the beach.
+                    Enjoy the sun and the idyllic sandy beach. Enjoy a cool drink and swim in the Red Sea from time to
+                    time. Admire the scenic natural beauty, azure sea and idyllic island of this uninhabited island.</p>
+
+                <p data-translate="boattrips_return_port">After an amazing tour of Mahmya Island Hurghada, you will
+                    return to the port in the late afternoon, where you will be transferred back to your hotel.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Modal Mahmaya Island -->
+
+
+    <!-- Modal Dolphin World -->
+    <div class="modal" id="modal4">
+        <div class="modal-content">
+            <div class="container d-flex justify-content-start">
+                <span class="close" data-translate="boattrips_close">&times;</span>
+            </div>
+            <div class="container">
+                <h2 data-translate="boattrips_program_titledolphin">Dolphin House Snorkeling and Swimming with Dolphins
+                </h2>
+
+                <p data-translate="boattrips_dolphins_description">The dolphins usually look so cute, jump around
+                    happily in the sea, always in a good mood. The dolphin excursion is a great experience and swimming
+                    with dolphins is the dream of many vacationers in Hurghada. Memnon Reisen makes it come true.</p>
+
+                <p data-translate="boattrips_discover_red_sea">Discover the mysterious world of the Red Sea! Snorkel and
+                    swim with wild dolphins in the open sea in Hurghada.</p>
+
+                <p data-translate="boattrips_relax_boat">Lean back and relax on the boat and enjoy the picturesque
+                    landscape of the area! Enjoy the unlimited colors and endless shapes of the fish in the magical
+                    coral reef!</p>
+
+                <h3 data-translate="boattrips_program_schedule_title">Program of Dolphin House Snorkeling and Swimming
+                    with Dolphins</h3>
+
+                <ul data-translate="boattrips_program_list">
+                    <li data-translate="boattrips_swim_with_dolphins">Swim with dolphins</li>
+                    <li data-translate="boattrips_snorkeling">Snorkeling</li>
+                    <li data-translate="boattrips_lunch">Lunch</li>
+                </ul>
+
+                <h3 data-translate="boattrips_schedule_title">Schedule of Dolphin House Snorkeling and Swimming with
+                    Dolphins Trip</h3>
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <tr>
+                            <th data-translate="boattrips_time">Time</th>
+                            <th data-translate="boattrips_program">Program</th>
+                        </tr>
+                        <tr>
+                            <td data-translate="boattrips_pickup_time">⏰ 8:00</td>
+                            <td data-translate="boattrips_pickup_description">Pick up from the hotel</td>
+                        </tr>
+                        <tr>
+                            <td data-translate="boattrips_takeoff_time">⏰ 9:00</td>
+                            <td data-translate="boattrips_takeoff">Take off</td>
+                        </tr>
+                        <tr>
+                            <td data-translate="boattrips_arrival_time">⏰ 15:30</td>
+                            <td data-translate="boattrips_arrival_description">Arriving to Hurghada</td>
+                        </tr>
+                        <tr>
+                            <td data-translate="boattrips_departure_time">⏰ 15:45</td>
+                            <td data-translate="boattrips_departure_description">Departure to the hotel</td>
+                        </tr>
+                        <tr>
+                            <td data-translate="boattrips_back_time">⏰ 16:30</td>
+                            <td data-translate="boattrips_back_description">Back at the hotel</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3 data-translate="boattrips_description_title">Description for Dolphin House Snorkeling and Swimming
+                    with Dolphins</h3>
+
+                <p data-translate="boattrips_pickup_time_description">Between 7:00 am and 8:00 am (depending on the
+                    location of your hotel) we will pick you up from your hotel and drive to the jetty in an
+                    air-conditioned vehicle. You will be greeted by your captain and crew.</p>
+
+                <p data-translate="boattrips_excursion_description">During the excursion we will stop at three different
+                    places and you will have the option to swim or snorkel. Snorkel and see the happy, playful dolphins
+                    up close.</p>
+
+                <p data-translate="boattrips_lunch_time">At around 1 p.m. the crew will serve you a delicious lunch.</p>
+
+                <p data-translate="boattrips_return_time_description">In the afternoon we will reach the landing stage
+                    again, from there you will drive back to your hotel. You will be back at your hotel around 3:30 p.m.
+                </p>
+
+                <p data-translate="boattrips_excursion_experience">The dolphin excursion is one of the most wonderful
+                    sea excursions you have ever been on.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Modal Dolphin world -->
+
+    <!--  Modal Fish -->
+    <div class="modal" id="modalFish">
+        <div class="modal-content ">
+            <div class="container d-flex justify-content-start">
+                <span class="close ">&times;</span>
+            </div>
+            <div class="container">
+                <h1 data-translate="boattrips_fishing_trip_title">Fishing trip by boat – go fishing in the Red Sea off
+                    Hurghada with three stops</h1>
+
+                <h2 data-translate="boattrips_experience_title">Experience</h2>
+                <p data-translate="boattrips_experience_description">Experience an exciting boat trip from Hurghada. You
+                    have the opportunity to fish in the open sea at three different locations in the Red Sea.</p>
+                <p data-translate="boattrips_experience_pickup">After breakfast we pick you up in the hotel with our
+                    comfortable, air-conditioned vehicle and take you directly to the fishing boat for your great
+                    excursion.</p>
+
+                <h2 data-translate="boattrips_fishing_title">Fishing</h2>
+                <p data-translate="boattrips_fishing_description">You have three stops to fish in the open sea. In case
+                    you’re not in the mood to fish, you can simply sunbathe on the deck or go snorkeling. If you catch
+                    an eatable fish, our cook will prepare it for you right on the boat!</p>
+                <h3 data-translate="boattrips_types_of_fish_title">Types of Fish</h3>
+                <ul>
+                    <li data-translate="boattrips_fish_tuna">Tuna</li>
+                    <li data-translate="boattrips_fish_sailfish">Sailfish</li>
+                    <li data-translate="boattrips_fish_grouper">Grouper</li>
+                </ul>
+
+                <h2 data-translate="boattrips_fishing_trip_hurghada_title">Fishing Trip in Hurghada</h2>
+                <p data-translate="boattrips_fishing_trip_hurghada_description">The Red Sea, however, has a lot more in
+                    store. For the professional angler, Hurghada is one of the dream fishing destinations.</p>
+                <p data-translate="boattrips_fishing_trip_hurghada_experience">The numerous, huge coral reefs, which are
+                    located not far from the coast, are home to many large fish species. In addition to the tuna already
+                    mentioned, these also include perches, bonitos and further in the south of the Red Sea even sharks.
+                    An angler gets his money’s worth here.</p>
+                <p data-translate="boattrips_fishing_trip_hurghada_assistance">You don’t have much fishing experience
+                    yet? No problem. Of course, our experienced Egyptian fishermen will be happy to help and advise you
+                    on board. In case you are not only interested in fishing, but just enjoy the variety of fish and
+                    love the sea, this is the place for you.</p>
+
+                <h2 data-translate="boattrips_accompanying_persons_title">Accompanying Persons</h2>
+                <p data-translate="boattrips_accompanying_persons_description">Accompanying persons who do not want to
+                    fish themselves can sunbathe on the deck of the ship or go snorkeling, of course; the nearby reefs
+                    are ideal for this. If you can catch an eatable fish, the experienced cooks on board will be happy
+                    to prepare the fish directly.</p>
+
+                <h2 data-translate="boattrips_included_title">What is Included</h2>
+                <ul>
+                    <li data-translate="boattrips_included_transfers">Transfers from/to your hotel in high-class
+                        vehicles with A/C</li>
+                    <li data-translate="boattrips_included_fishing_trip">Fishing trip by boat with three stops</li>
+                    <li data-translate="boattrips_included_snorkeling_equipment">Snorkeling equipment</li>
+                    <li data-translate="boattrips_included_guide_assistance">Guide assistance</li>
+                    <li data-translate="boattrips_included_lunch">Lunch aboard the boat</li>
+                    <li data-translate="boattrips_included_drinks">Mineral water and soft drinks</li>
+                </ul>
+
+                <h2 data-translate="boattrips_not_included_title">What is Not Included</h2>
+                <ul>
+                    <li data-translate="boattrips_not_included_tips">Tips for guides & Transfer from Makadi bay, Elgouna
+                        10 Euro per Person</li>
+                    <li data-translate="boattrips_not_included_personal_items">Personal items, meals, drinks or services
+                        not mentioned</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+     
+    <div class="modal" id="modalHolaHola">
+        <div class="modal-content">
+          
+          <!-- Close Button -->
+          <div class="container d-flex justify-content-start">
+            <span class="close">&times;</span>
+          </div>
+      
+          <!-- Modal Content -->
+          <div class="container">
+            
+            <!-- Title -->
+            <h1 data-translate="holahola_modal_title">
+              Hula Hula Island Trip – Discover Hurghada’s New Gem
+            </h1>
+      
+            <!-- Section: Experience -->
+            <h2 data-translate="holahola_experience_title">Experience</h2>
+            <p data-translate="holahola_experience_description">
+              Enjoy a full-day trip to Hula Hula Island, one of the most beautiful and 
+              newly discovered islands in Hurghada. Relax on white sandy beaches, 
+              swim in crystal-clear waters, and experience the vibrant marine life of the Red Sea.
+            </p>
+      
+            <!-- Section: Activities -->
+            <h2 data-translate="holahola_activities_title">Activities</h2>
+            <p data-translate="holahola_activities_description">
+              During the trip, you will enjoy snorkeling at two amazing coral reef spots, 
+              sunbathing on the island’s private beach, and tasting a delicious BBQ lunch 
+              served on the boat. Our professional guides will ensure a safe and enjoyable trip.
+            </p>
+      
+            <!-- Section: Program -->
+            <h2 data-translate="holahola_program_title">Program Highlights</h2>
+            <ul>
+              <li data-translate="holahola_program_item1">Pickup & Drop-off from Hotel</li>
+              <li data-translate="holahola_program_item2">Boat Trip to Hula Hula Island</li>
+              <li data-translate="holahola_program_item3">Snorkeling Stops with Equipment</li>
+              <li data-translate="holahola_program_item4">Relaxing on Island Beach</li>
+              <li data-translate="holahola_program_item5">BBQ Lunch & Drinks on Boat</li>
+            </ul>
+      
+            <!-- Section: Included -->
+            <h2 data-translate="holahola_included_title">What is Included</h2>
+            <ul>
+              <li data-translate="holahola_included_transfers">Transfers from/to your hotel with A/C vehicle</li>
+              <li data-translate="holahola_included_boat_trip">Boat trip with snorkeling stops</li>
+              <li data-translate="holahola_included_equipment">Snorkeling equipment</li>
+              <li data-translate="holahola_included_lunch">BBQ lunch & soft drinks</li>
+              <li data-translate="holahola_included_guide">Professional guide assistance</li>
+            </ul>
+      
+            <!-- Section: Not Included -->
+            <h2 data-translate="holahola_not_included_title">What is Not Included</h2>
+            <ul>
+              <li data-translate="holahola_not_included_tips">Tips for guides & crew</li>
+              <li data-translate="holahola_not_included_extra">Personal expenses or extra services not mentioned</li>
+            </ul>
+      
+            <!-- Price -->
+            <h3 class="mt-3 text-warning fw-bold" >
+              Price: 65 EUR
+            </h3>
+      
+            <!-- Book Now -->
+            <a href="https://wa.me/+201153535454" 
+               class="btn btn-dark rounded-pill px-4 mt-3" 
+               data-translate="holahola_modal_book_now">
+              Book Now
+            </a>
+            
+      
+          </div>
+        </div>
+      </div>
+      
+
+    <!-- End Modal Fish -->
+
+ 
+    <footer class="footer text-light pt-4 pb-3">
+        <div class="container">
+          <div class="row gy-4">
+            
+            <!-- 🏖️ About -->
+            <div class="col-md-4 col-sm-12">
+              <h5 class="fw-bold mb-2" data-translate="brandName">Sky Line Egypt Travel</h5>
+              <p class="small" data-translate="footer_about">
+                Explore Egypt with unforgettable adventures — from the Red Sea to the Nile,
+                we bring you moments filled with fun, culture, and discovery.
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://www.facebook.com/profile.php?id=61583459636988" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/sky.lineeg?igsh=MXhnNjYwOGo4eXY4Mg==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+      
+            <!-- 🌍 Links -->
+            <div class="col-md-4 col-sm-6">
+              <h6 class="fw-bold mb-2" data-translate="quick_links">Quick Links</h6>
+              <ul class="list-unstyled footer-links small">
+                <li><a href="../index.html" data-translate="home">Home</a></li>
+                <li><a href="../About.html" data-translate="about">About Us</a></li>
+                <li><a href="../transport.html" data-translate="transfer">Transfer</a></li>
+                <li><a href="../Hotels.html" data-translate="hotels">Hotels</a></li>
+              </ul>
+            </div>
+      
+            <!-- 📞 Contact -->
+            <div class="col-md-4 col-sm-6">
+              <h6 class="fw-bold mb-2" data-translate="contact">Contact Info</h6>
+              <ul class="list-unstyled contact-info small">
+                <li><i class="fas fa-phone me-2"></i><a href="https://wa.me/+201153535454">+201153535454</a></li>
+                <!-- <li><i class="fas fa-envelope me-2"></i><a href="mailto:info@coralfuntravel.com">info@coralfuntravel.com</a></li> -->
+                <li><i class="fas fa-map-marker-alt me-2"></i>Hurghada, Egypt</li>
+              </ul>
+            </div>
+          </div>
+      
+          <!-- Divider -->
+          <hr class="my-3" />
+      
+          <!-- Bottom -->
+          <div class="text-center small text-muted">
+            <p class="mb-0">&copy; 2025 CoralFun Travel | Made in Egypt</p>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Core JS-->
+    <script src="../js/scripts.js"></script>
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <!--Start of Tawk.to Script-->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API = Tawk_API || {};
+  Tawk_API.customStyle = {
+    visibility: {
+      desktop: {
+        position: 'bl' // bottom left
+      },
+      mobile: {
+        position: 'bl' // bottom left
+      },
+      tablet: {
+        position: 'bl' // bottom left
+      }
+    }
+  };
+  var Tawk_LoadStart = new Date();
+  (function(){
+    var s1=document.createElement("script"),
+        s0=document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/68d1ae1b9599991924058af3/1j5ph0739';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1, s0);
+  })();
+</script>
+<!--End of Tawk.to Script-->
+
+  <!--End of Tawk.to Script-->
+  
+</body>
+
+</html>

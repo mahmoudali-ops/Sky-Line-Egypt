@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="To book hotels in hurghada" />
+    <meta name="author" content="" />
+    <title>CoralFun - Travels</title>
+    <!-- Favicon-->
+    <link href="assets/img/logoNew.PNG" rel="icon">
+    <link href="assets/img/logoNew.PNG" rel="apple-touch-icon">
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+    <!-- Custom CSS and Bootstrap -->
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body id="page-top">
+  
+    <!-- End -->
+    <div class="position-fixed whatsapp-float" style="bottom: 20px; right: 20px; z-index: 10000;">
+      <a class="navbar-brand text-center text-white" href="https://wa.me/+201153535454" target="_blank">
+        <img src="assets/img/whatsapp.png" alt="WhatsApp" width="60" height="60" class="whatsapp-icon">
+      </a>
+    </div>
+    <!-- Navigation-->
+
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm" id="mainNav"
+    style="backdrop-filter: blur(2px); background: rgba(33, 37, 41, 0.6); height: 100px;">
+  <div class="container-fluid px-3 d-flex align-items-center justify-content-between">
+
+    <!-- Left side: Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="assets/img/Sky_logo.png" alt="..." class="nav-logo" style="height:45px;" />
+    </a>
+
+    <!-- Center: Language Flags -->
+    <div class="d-flex align-items-center order-lg-2">
+      <a href="/index.html" onclick="changeLanguage('en')" class="px-1">
+        <img src="assets/img/lang1.png" alt="English" class="flag-icon" style="height:24px; width: 24px;">
+      </a>
+      <a href="#" onclick="changeLanguage('ru')" class="px-1">
+        <img src="assets/img/lang2.jpg" alt="Polski" class="flag-icon" style="height:24px; width: 24px">
+      </a>
+      <a href="#" onclick="changeLanguage('gr')" class="px-1">
+        <img src="assets/img/german.png" alt="German" class="flag-icon" style="height:24px; width: 24px">
+      </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button class="navbar-toggler text-white border-0 order-lg-3" type="button" data-bs-toggle="offcanvas"
+      data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars fa-lg"></i>
+    </button>
+
+    <!-- Desktop Menu -->
+    <div class="collapse navbar-collapse order-lg-4" id="navbarNavDropdown">
+      <ul class="navbar-nav text-uppercase ms-auto align-items-lg-center">
+
+        <li class="nav-item">
+          <a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" href="index.html" data-translate="home">
+            <i class="fa-solid fa-house"></i> Home
+          </a>
+        </li>
+
+        <!-- Trips Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle px-3 fw-semibold text-warning d-flex align-items-center gap-2"
+             id="trips" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-translate="trips">
+            <i class="fa-solid fa-plane-departure"></i> Trips
+          </a>
+          <ul class="dropdown-menu border-0 shadow-lg rounded-4 animate__animated animate__fadeInDown">
+            <li><a class="dropdown-item py-2" href="travels_cairo.html"><i class="fa-solid fa-city me-2 text-warning"></i> Cairo Travel</a></li>
+            <li><a class="dropdown-item py-2" href="travels_luxor.html"><i class="fa-solid fa-landmark me-2 text-warning"></i> Luxor Travel</a></li>
+            <li><a class="dropdown-item py-2" href="trips/boattrips.html"><i class="fa-solid fa-sailboat me-2 text-warning"></i> Sea Trips</a></li>
+            <li><a class="dropdown-item py-2" href="trips/safari.html"><i class="fa-solid fa-car-side me-2 text-warning"></i> Safari</a></li>
+            <li><a class="dropdown-item py-2" href="trips/diving.html"><i class="fa-solid fa-water me-2 text-warning"></i> Diving</a></li>
+            <li><a class="dropdown-item py-2" href="trips/seaact.html"><i class="fa-solid fa-umbrella-beach me-2 text-warning"></i> Things to Do</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" href="Hotels.html"><i class="fa-solid fa-hotel"></i> Hotels</a></li>
+        <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" href="transport.html"><i class="fa-solid fa-bus"></i> Transport</a></li>
+        <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" data-translate="about" href="About.html"><i class="fa-solid fa-circle-info"></i> About</a></li>
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+    </li> <li class="nav-item">
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Offcanvas Menu for Mobile -->
+<div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+  <div class="offcanvas-header border-bottom border-secondary">
+    <h5 class="offcanvas-title text-warning fw-bold" id="mobileMenuLabel" data-translate="menu">Menu</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+
+  <div class="offcanvas-body">
+    <ul class="navbar-nav text-uppercase">
+
+      <li>
+        <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="index.html" data-translate="home">
+          <i class="fa-solid fa-house me-2"></i> Home
+        </a>
+      </li>
+
+      <!-- Trips Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-warning fw-semibold d-flex align-items-center gap-2" href="#" id="trips-mobile" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-translate="trips">
+          <i class="fa-solid fa-plane-departure me-2"></i> Trips
+        </a>
+        <ul class="dropdown-menu bg-dark border-0 shadow">
+          <li><a class="dropdown-item text-light" href="travels_cairo.html" data-translate="cairoTravel">Cairo Travel</a></li>
+          <li><a class="dropdown-item text-light" href="travels_luxor.html" data-translate="luxorTravel">Luxor Travel</a></li>
+          <li><a class="dropdown-item text-light" href="trips/boattrips.html" data-translate="seaTrips">Sea Trips</a></li>
+          <li><a class="dropdown-item text-light" href="trips/safari.html" data-translate="safari">Safari</a></li>
+          <li><a class="dropdown-item text-light" href="trips/diving.html" data-translate="diving">Diving</a></li>
+          <li><a class="dropdown-item text-light" href="trips/seaact.html" data-translate="thingsToDo">Things to Do</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="Hotels.html" data-translate="hotels">
+          <i class="fa-solid fa-hotel me-2"></i> Hotels
+        </a>
+      </li>
+      <li>
+        <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="transport.html" data-translate="transport">
+          <i class="fa-solid fa-bus me-2"></i> Transport
+        </a>
+      </li>
+      <li>
+        <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="About.html" data-translate="about">
+          <i class="fa-solid fa-circle-info me-2"></i> About
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</div>
+    <!-- End NavBar -->
+
+    <!-- Masthead-->
+
+    <!-- Cards -->
+    <div class="cards my-5">
+        <div class="container">
+          <div class="row d-flex m-auto">
+      
+            <!-- Luxor Trip 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="trip-card shadow-lg border-0">
+                <div class="trip-img position-relative overflow-hidden">
+                  <img src="assets/luxorimg/lux1.jpg" class="card-img-top" alt="Luxor">
+                  <div class="trip-caption d-flex flex-column justify-content-center align-items-center text-center">
+                    <h2 class="fw-bold mb-2" data-translate="travel-luxor-title">Luxor</h2>
+                    <p class="mb-1" data-translate="travel-luxor-best-price">Best Price For Person</p>
+                    <span class="divider my-2"></span>
+                    <h4 class="fw-semibold" data-translate="travel-luxor-price">€55.00</h4>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="fw-bold mb-2" data-translate="travel-luxor-card-title">Luxor By Bus</h5>
+                  <p class="fst-italic text-muted" data-translate="travel-luxor-favorite-trip">Your Favourite Trip!</p>
+                  <div class="d-flex justify-content-between gap-2 mt-3">
+                    <a href="https://wa.me/+201153535454" class="btn btn-gradient flex-grow-1 fw-semibold" data-translate="travel-luxor-book-now">Book Now</a>
+                    <a href="travels_luxor/travels_luxor_trip1.html" class="btn btn-outline-dark flex-grow-1 fw-semibold" data-translate="travel-luxor-more-details">More Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Luxor Trip 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="trip-card shadow-lg border-0">
+                <div class="trip-img position-relative overflow-hidden">
+                  <img src="assets/luxorimg/lux2.jpg" class="card-img-top" alt="Luxor">
+                  <div class="trip-caption d-flex flex-column justify-content-center align-items-center text-center">
+                    <h2 class="fw-bold mb-2">Luxor</h2>
+                    <p class="mb-1">Best Price For Person</p>
+                    <span class="divider my-2"></span>
+                    <h4 class="fw-semibold">€175.00</h4>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="fw-bold mb-2">Luxor Private Tour</h5>
+                  <p class="fst-italic text-muted" data-translate="travel-luxor-favorite-trip">Your Favourite Trip!</p>
+                  <div class="d-flex justify-content-between gap-2 mt-3">
+                    <a href="https://wa.me/+201153535454" class="btn btn-gradient flex-grow-1 fw-semibold" data-translate="travel-luxor-book-now">Book Now</a>
+                    <a href="travels_luxor/travels_luxor_trip2.html" class="btn btn-outline-dark flex-grow-1 fw-semibold"data-translate="travel-luxor-more-details">More Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Luxor Trip 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="trip-card shadow-lg border-0">
+                <div class="trip-img position-relative overflow-hidden">
+                  <img src="assets/luxorimg/lux3.jpg" class="card-img-top" alt="Luxor">
+                  <div class="trip-caption d-flex flex-column justify-content-center align-items-center text-center">
+                    <h2 class="fw-bold mb-2">Luxor</h2>
+                    <p class="mb-1">Best Price For Person</p>
+                    <span class="divider my-2"></span>
+                    <h4 class="fw-semibold">€75.00</h4>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="fw-bold mb-2">Luxor Small Group Tour</h5>
+                  <p class="fst-italic text-muted"data-translate="travel-luxor-favorite-trip">Your Favourite Trip!</p>
+                  <div class="d-flex justify-content-between gap-2 mt-3">
+                    <a href="https://wa.me/+201153535454" class="btn btn-gradient flex-grow-1 fw-semibold"data-translate="travel-luxor-book-now">Book Now</a>
+                    <a href="travels_luxor/travels_luxor_trip3.html" class="btn btn-outline-dark flex-grow-1 fw-semibold"data-translate="travel-luxor-more-details">More Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Luxor Trip 4 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div class="trip-card shadow-lg border-0">
+                <div class="trip-img position-relative overflow-hidden">
+                  <img src="assets/luxorimg/luxball1.jpg" class="card-img-top" alt="Luxor">
+                  <div class="trip-caption d-flex flex-column justify-content-center align-items-center text-center">
+                    <h2 class="fw-bold mb-2">Luxor</h2>
+                    <p class="mb-1">Best Price For Person</p>
+                    <span class="divider my-2"></span>
+                    <h4 class="fw-semibold">€160.00</h4>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="fw-bold mb-2">Luxor Tour & Hot Air Balloon Ride</h5>
+                  <p class="fst-italic text-muted" data-translate="travel-luxor-favorite-trip">Your Favourite Trip!</p>
+                  <div class="d-flex justify-content-between gap-2 mt-3">
+                    <a href="https://wa.me/+201153535454" class="btn btn-gradient flex-grow-1 fw-semibold"data-translate="travel-luxor-book-now">Book Now</a>
+                    <a href="travels_luxor/travels_luxor_trip4.html" class="btn btn-outline-dark flex-grow-1 fw-semibold"data-translate="travel-luxor-more-details">More Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      
+
+
+
+
+
+
+
+    <!-- Modals -->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <div class="container d-flex justify-content-start">
+                <span class="close ">&times;</span>
+            </div>
+            <div class="container">
+                <!-- Program of Private Luxor Day Tour -->
+                <div class="container">
+                    <h1 data-translate="travelProgramLuxorTour">Program of Private Luxor Day Tour</h1>
+                    <ul>
+                        <li data-translate="travelKarnakTemple">Karnak Temple</li>
+                        <li data-translate="travelColossiMemnon">Colossi of Memnon</li>
+                        <li data-translate="travelHatshepsutTemple">Mortuary Temple of Hatshepsut</li>
+                        <li data-translate="travelValleyKings">Valley of the Kings</li>
+                        <li data-translate="travelLunch">Lunch (Egyptian specialties)</li>
+                        <li data-translate="travelNileExcursion">Nile excursion lasts 1 hour (FREE only with us)</li>
+                    </ul>
+
+                    <h2 data-translate="travelDescriptionLuxorTour">Description for Private Luxor Day Tour</h2>
+                    <p data-translate="travelPickedMorning">You will be picked up early in the morning. And then you
+                        drive on in a modern, comfortable,
+                        air-conditioned vehicle through Safaga on a newly built desert road of approx. 225 km to the
+                        Nile Valley in Qena.</p>
+                    <p data-translate="travelShortBreak">Along the way, you take a short break to go to the bathroom or
+                        stretch your legs.</p>
+                    <p data-translate="travelDriveToLuxor">Then drive along a densely populated country road to Luxor.
+                        (About 60 km).</p>
+                    <p data-translate="travelArrivalLuxor">Upon arrival in Luxor, enjoy your excursion to Luxor. First
+                        of all, you will visit the largest
+                        temple complex in the world with a huge pillared hall. The bus will take you to Fiben West,
+                        where you will have lunch in a typical Egyptian cafe.</p>
+                    <p data-translate="travelValleyKingsTour">After your lunch break, explore the world famous Valley of
+                        the Kings with an inside guided tour
+                        of the royal tombs. New!!!! Taking photographs of graves with a mobile phone without a flash is
+                        now allowed free of charge. Then, head to the terrace of Queen Hatshepsut Temple, a fun spot for
+                        photographers to take great pictures. Your visit ends at the impressive Colossi of Memnon.</p>
+                    <p data-translate="travelReturnToHurghada">Then you head back to Hurghada. It’s time to look back at
+                        the impressions of the day and perhaps
+                        observe life on the Nile. You will be returned to your hotel at around 20:00. One day tour to
+                        Luxor and the Valley of the Kings will be remembered for a long time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modalprivate">
+        <div class="modal-content">
+            <div class="container d-flex justify-content-start">
+                <span class="close">&times;</span>
+            </div>
+            <div class="container">
+                <div class="container">
+                    <h3 data-translate="travelPrices">Prices</h3>
+                    <table class="table table-striped">
+                        <tr>
+                            <th data-translate="travelNumberOfPeople">Number of people</th>
+                            <th data-translate="travelVehicle">Vehicle</th>
+                            <th data-translate="travelPricePerAdult">Price per Adult</th>
+                        </tr>
+                        <tr>
+                            <td data-translate="travelTwoPersons">2 persons</td>
+                            <td data-translate="travelPrivateCar">Private car</td>
+                            <td data-translate="travel125">125 € p.P.</td>
+                        </tr>
+                        <tr>
+                            <td data-translate="travelFourPersons">4 persons</td>
+                            <td data-translate="travelPrivateMiniBus">Private mini bus</td>
+                            <td data-translate="travel100">100 € p.P.</td>
+                        </tr>
+                        <tr>
+                            <td data-translate="travelSixToEightPersons">6 - 8 persons</td>
+                            <td data-translate="travelPrivateMiniBus">Private mini bus</td>
+                            <td data-translate="travel80">80 € p.P.</td>
+                        </tr>
+                    </table>
+                    <h1 data-translate="travelPrivateLuxorTour">Program of Private Luxor Day Tour</h1>
+                    <ul>
+                        <li data-translate="travelKarnakTemple">Karnak Temple</li>
+                        <li data-translate="travelColossiMemnon">Colossi of Memnon</li>
+                        <li data-translate="travelTempleHatshepsut">Mortuary Temple of Hatshepsut</li>
+                        <li data-translate="travelValleyOfKings">Valley of the Kings</li>
+                        <li data-translate="travelLunch">Lunch (Egyptian specialties)</li>
+                        <li data-translate="travelNileExcursion">Nile excursion lasts 1 hour (FREE only with us)</li>
+                    </ul>
+                    <h2 data-translate="travelDescriptionLuxorTour">Description for Private Luxor Day Tour</h2>
+                    <p data-translate="travelPickUp">You will be picked up early in the morning...</p>
+                    <p data-translate="travelShortBreak">Along the way, you take a short break...</p>
+                    <p data-translate="travelDriveLuxor">Then drive along a densely populated...</p>
+                    <p data-translate="travelArrivalLuxor">Upon arrival in Luxor...</p>
+                    <p data-translate="travelLunchBreak">After your lunch break...</p>
+                    <p data-translate="travelReturnHurghada">Then you head back to Hurghada...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal4">
+        <div class="modal-content">
+          <div class="container d-flex justify-content-start">
+            <span class="close">&times;</span>
+          </div>
+      
+          <!-- Program of Luxor Small Group Tour -->
+          <div class="container">
+            <h1 data-translate="travel-luxor-program">Program of Luxor Small Group Tour</h1>
+            <h2 data-translate="travel-luxor-highlights">Highlights of the Tour</h2>
+      
+            <ul>
+              <li data-translate="travel-luxor-valley-of-kings">Valley of the Kings</li>
+              <li data-translate="travel-luxor-temple-hatshepsut">Temple of Queen Hatshepsut</li>
+              <li data-translate="travel-luxor-colossi-memnon">Colossi of Memnon</li>
+              <li data-translate="travel-luxor-lunch">Lunch at a local restaurant</li>
+              <li data-translate="travel-luxor-karnak">Karnak Temple</li>
+              <li data-translate="travel-luxor-nile-boat">Optional Nile boat trip</li>
+            </ul>
+      
+            <h2 data-translate="travel-luxor-description">Description for Luxor Small Group Tour</h2>
+            <p data-translate="travel-luxor-pickup">We pick you up early in the morning from your hotel in Hurghada by air-conditioned mini-bus.</p>
+            <p data-translate="travel-luxor-journey">During the drive to Luxor, you will enjoy the scenery of Upper Egypt and a short coffee break.</p>
+            <p data-translate="travel-luxor-valley-visit">Upon arrival, we begin with a guided visit to the Valley of the Kings, where many pharaohs were buried.</p>
+            <p data-translate="travel-luxor-hatshepsut-visit">Then we continue to the impressive Temple of Queen Hatshepsut, one of the most remarkable female rulers in history.</p>
+            <p data-translate="travel-luxor-memnon-visit">Next stop is at the Colossi of Memnon, two massive stone statues that guard the Theban necropolis.</p>
+            <p data-translate="travel-luxor-lunch-break">You will then enjoy lunch at a local restaurant with authentic Egyptian dishes.</p>
+            <p data-translate="travel-luxor-karnak-visit">After lunch, we head to the Karnak Temple complex – the largest religious building ever constructed.</p>
+            <p data-translate="travel-luxor-optional-nile">For those who wish, an optional Nile boat ride is available (extra cost).</p>
+            <p data-translate="travel-luxor-return">In the late afternoon, we return to Hurghada and you will arrive back at your hotel in the evening.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="modal5">
+        <div class="modal-content">
+          <div class="container d-flex justify-content-start">
+            <span class="close">&times;</span>
+          </div>
+      
+          <!-- Program of Luxor Tour & Hot Air Balloon Ride -->
+          <div class="container">
+            <h1 data-translate="travel-luxor-balloon-program">Program of Luxor Tour & Hot Air Balloon Ride</h1>
+            <h2 data-translate="travel-luxor-balloon-highlights">Highlights of the Tour</h2>
+      
+            <ul>
+              <li data-translate="travel-luxor-balloon-ride">Early morning Hot Air Balloon Ride over Luxor</li>
+              <li data-translate="travel-luxor-valley-of-kings">Valley of the Kings</li>
+              <li data-translate="travel-luxor-temple-hatshepsut">Temple of Queen Hatshepsut</li>
+              <li data-translate="travel-luxor-colossi-memnon">Colossi of Memnon</li>
+              <li data-translate="travel-luxor-lunch">Lunch at a local restaurant</li>
+              <li data-translate="travel-luxor-karnak">Karnak Temple</li>
+            </ul>
+      
+            <h2 data-translate="travel-luxor-balloon-description">Description for Luxor Tour & Hot Air Balloon Ride</h2>
+            <p data-translate="travel-luxor-balloon-pickup">We pick you up from your hotel in Hurghada very early in the morning and transfer you to Luxor.</p>
+            <p data-translate="travel-luxor-balloon-experience">Upon arrival, you will experience an unforgettable Hot Air Balloon Ride at sunrise, offering breathtaking panoramic views over the Nile Valley and Luxor’s temples.</p>
+            <p data-translate="travel-luxor-balloon-valley">After landing, we continue with a guided tour of the Valley of the Kings, where the pharaohs of the New Kingdom were buried.</p>
+            <p data-translate="travel-luxor-balloon-hatshepsut">Next, visit the stunning Temple of Queen Hatshepsut, built into the cliffs of Deir el-Bahari.</p>
+            <p data-translate="travel-luxor-balloon-memnon">A stop will also be made at the Colossi of Memnon for photos and history insights.</p>
+            <p data-translate="travel-luxor-balloon-lunch">You will then enjoy lunch at a local Egyptian restaurant.</p>
+            <p data-translate="travel-luxor-balloon-karnak">In the afternoon, we explore the vast Karnak Temple complex, dedicated to Amun-Ra, the Sun God.</p>
+            <p data-translate="travel-luxor-balloon-return">At the end of the day, you will return back to your hotel in Hurghada in the evening.</p>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+      <footer class="footer text-light pt-4 pb-3">
+        <div class="container">
+          <div class="row gy-4">
+            
+            <!-- 🏖️ About -->
+            <div class="col-md-4 col-sm-12">
+              <h5 class="fw-bold mb-2" data-translate="brandName">Sky Line Egypt Travel</h5>
+              <p class="small" data-translate="footer_about">
+                Explore Egypt with unforgettable adventures — from the Red Sea to the Nile,
+                we bring you moments filled with fun, culture, and discovery.
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://www.facebook.com/profile.php?id=61583459636988" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/sky.lineeg?igsh=MXhnNjYwOGo4eXY4Mg==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+      
+            <!-- 🌍 Links -->
+            <div class="col-md-4 col-sm-6">
+              <h6 class="fw-bold mb-2" data-translate="quick_links">Quick Links</h6>
+              <ul class="list-unstyled footer-links small">
+                <li><a href="index.html" data-translate="home">Home</a></li>
+                <li><a href="About.html" data-translate="about">About Us</a></li>
+                <li><a href="transport.html" data-translate="transfer">Transfer</a></li>
+                <li><a href="Hotels.html" data-translate="hotels">Hotels</a></li>
+              </ul>
+            </div>
+      
+            <!-- 📞 Contact -->
+            <div class="col-md-4 col-sm-6">
+              <h6 class="fw-bold mb-2" data-translate="contact">Contact Info</h6>
+              <ul class="list-unstyled contact-info small">
+                <li><i class="fas fa-phone me-2"></i><a href="https://wa.me/+201153535454">+201153535454</a></li>
+                <!-- <li><i class="fas fa-envelope me-2"></i><a href="mailto:info@coralfuntravel.com">info@coralfuntravel.com</a></li> -->
+                <li><i class="fas fa-map-marker-alt me-2"></i>Hurghada, Egypt</li>
+              </ul>
+            </div>
+          </div>
+      
+          <!-- Divider -->
+          <hr class="my-3" />
+      
+          <!-- Bottom -->
+          <div class="text-center small text-muted">
+            <p class="mb-0">&copy; 2025 CoralFun Travel | Made in Egypt</p>
+          </div>
+        </div>
+      </footer>
+    <!-- Core JS-->
+    <script src="js/scripts.js"></script>
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <!--Start of Tawk.to Script-->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API = Tawk_API || {};
+  Tawk_API.customStyle = {
+    visibility: {
+      desktop: {
+        position: 'bl' // bottom left
+      },
+      mobile: {
+        position: 'bl' // bottom left
+      },
+      tablet: {
+        position: 'bl' // bottom left
+      }
+    }
+  };
+  var Tawk_LoadStart = new Date();
+  (function(){
+    var s1=document.createElement("script"),
+        s0=document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/68d1ae1b9599991924058af3/1j5ph0739';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1, s0);
+  })();
+</script>
+<!--End of Tawk.to Script-->
+
+  <!--End of Tawk.to Script-->
+  
+</body>
+
+</html>
