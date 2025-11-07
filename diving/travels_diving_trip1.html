@@ -92,7 +92,6 @@
           </ul>
         </li>
 
-        <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" href="../Hotels.html"><i class="fa-solid fa-hotel"></i> Hotels</a></li>
         <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" href="../transport.html"><i class="fa-solid fa-bus"></i> Transport</a></li>
         <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2"data-translate="about" href="../About.html"><i class="fa-solid fa-circle-info"></i> About</a></li>
     </li> <li class="nav-item">
@@ -148,11 +147,7 @@
           </ul>
         </li>
   
-        <li>
-          <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="../Hotels.html" data-translate="hotels">
-            <i class="fa-solid fa-hotel me-2"></i> Hotels
-          </a>
-        </li>
+      
         <li>
           <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="../transport.html" data-translate="transport">
             <i class="fa-solid fa-bus me-2"></i> Transport
@@ -264,10 +259,8 @@
     <li data-translate="travelIncludedWaterSea">Bottled water</li>
     <li data-translate="travelIncludedSoftDrinksSea">Soft drinks</li>
     <li data-translate="travelIncludedJuiceSea">Juice</li>
-    <li data-translate="travelIncludedParasailingSea">Parasailing (unless selected as an add-on)</li>
     <li data-translate="travelIncludedNatureSea">Crystal-clear waters and pristine beaches</li>
     <li data-translate="travelIncludedCaptainSea">Professional boat captain</li>
-    <li data-translate="travelIncludedBottleSea">Water bottle</li>
   </ul>
 </div>
 
@@ -309,50 +302,49 @@
 
   
     <!-- Booking Form -->
-    <div class="row justify-content-center">
-      <div class="col-lg-6 col-md-8">
-        <form id="cairo-booking-form" class="booking-form bg-white p-5 rounded-4 shadow-lg border-0 position-relative overflow-hidden">
-          
-          <!-- Decorative wave or top line -->
-          <div class="booking-header mb-4 text-center">
-            <h4 class="fw-bold cairo-form-title text-primary" data-translate="book_now">Book Now</h4>
-            <p class="text-muted small mb-0" data-translate="book_now_subtitle">
-              Reserve your adventure today and dive into the Red Sea!
-            </p>
+    <section class="booking-section py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-8">
+            <form id="cairo-booking-form" class="bg-white shadow p-4 rounded-4 border">
+              <h4 class="text-center mb-4 fw-bold cairo-form-title" data-translate="book_now">
+                Book Now
+              </h4>
+    
+              <div class="mb-3">
+                <input type="text" name="from_name" class="form-control cairo-input" placeholder="Full Name" required />
+              </div>
+    
+              <div class="mb-3">
+                <input type="email" name="email" class="form-control cairo-input" placeholder="Email Address" required />
+              </div>
+    
+              <div class="mb-3">
+                <input type="tel" name="tel" class="form-control cairo-input" placeholder="Phone" required />
+              </div>
+              <div class="mb-3">
+                <input type="text" name="hotel" class="form-control cairo-input" placeholder="Hotel" required />
+              </div>
+              <div class="mb-3">
+                <input type="text" name="room number" class="form-control cairo-input" placeholder="Room Number" required />
+              </div>
+    
+              <div class="mb-3">
+                <input type="date" name="room number" class="form-control cairo-input" placeholder="Date" required />
+              </div>
+    
+              <div class="mb-3">
+                <textarea name="message" rows="4" class="form-control cairo-input" placeholder="Message or tour date"></textarea>
+              </div>
+    
+              <button type="submit" class="btn btn-primary w-100 py-2 cairo-btn" data-translate="send_booking">
+                Send Booking
+              </button>
+            </form>
           </div>
-    
-          <!-- Name -->
-          <div class="form-floating mb-3">
-            <input type="text" name="from_name" class="form-control cairo-input" id="fullName" placeholder="Full Name" required />
-            <label for="fullName" data-translate="full_name">Full Name</label>
-          </div>
-    
-          <!-- Email -->
-          <div class="form-floating mb-3">
-            <input type="email" name="email" class="form-control cairo-input" id="emailAddress" placeholder="Email Address" required />
-            <label for="emailAddress" data-translate="email_address">Email Address</label>
-          </div>
-    
-          <!-- Phone -->
-          <div class="form-floating mb-3">
-            <input type="tel" name="tel" class="form-control cairo-input" id="phoneNumber" placeholder="Phone" required />
-            <label for="phoneNumber" data-translate="phone">Phone</label>
-          </div>
-    
-          <!-- Message -->
-          <div class="form-floating mb-4">
-            <textarea name="message" id="message" rows="4" class="form-control cairo-input" placeholder="Message or tour date"></textarea>
-            <label for="message" data-translate="message_or_date">Message or tour date</label>
-          </div>
-    
-          <!-- Button -->
-          <button type="submit" class="btn cairo-btn w-100 py-2 fw-semibold" data-translate="send_booking">
-            Send Booking
-          </button>
-    
-        </form>
+        </div>
       </div>
-    </div>
+    </section>
     
   </div>
 </section>
@@ -394,7 +386,8 @@
           <li><a href="../index.html" data-translate="home">Home</a></li>
           <li><a href="../About.html" data-translate="about">About Us</a></li>
           <li><a href="../transport.html" data-translate="transfer">Transfer</a></li>
-          <li><a href="../Hotels.html" data-translate="hotels">Hotels</a></li>
+          <li><a href="https://www.facebook.com/nextstepsolutions1#"><h6 class="fw-bold mb-2" data-translate="Poweredby">Powered By Next Step Solutions</h6></a></li>
+
         </ul>
       </div>
 

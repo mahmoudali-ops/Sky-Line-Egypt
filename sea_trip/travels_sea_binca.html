@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="To book hotels in hurghada" />
   <meta name="author" content="" />
-  <title>Sky Line Travel- Luxor Trips</title>
+  <title>Sky Line - Trips</title>
   <!-- Favicon-->
   <link href="../assets/img/logoNew.PNG" rel="icon">
   <link href="../assets/img/logoNew.PNG" rel="apple-touch-icon">
@@ -49,7 +49,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 
     <!-- Center: Language Flags -->
     <div class="d-flex align-items-center order-lg-2">
-      <a href="travels_luxor_trip2.html" onclick="changeLanguage('en')" class="px-1">
+      <a href="travels_sea_binca.html" onclick="changeLanguage('en')" class="px-1">
         <img src="../assets/img/lang1.png" alt="English" class="flag-icon" style="height:24px; width: 24px;">
       </a>
       <a href="#" onclick="changeLanguage('ru')" class="px-1">
@@ -93,7 +93,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         </li>
 
         <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" href="../transport.html"><i class="fa-solid fa-bus"></i> Transport</a></li>
-        <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2" data-translate="about"href="../About.html"><i class="fa-solid fa-circle-info"></i> About</a></li>
+        <li class="nav-item"><a class="nav-link px-3 fw-semibold text-warning d-flex align-items-center gap-2"data-translate="about" href="../About.html"><i class="fa-solid fa-circle-info"></i> About</a></li>
     </li> <li class="nav-item">
     </li> <li class="nav-item">
     </li> <li class="nav-item">
@@ -147,7 +147,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
           </ul>
         </li>
   
-     
+ 
         <li>
           <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="../transport.html" data-translate="transport">
             <i class="fa-solid fa-bus me-2"></i> Transport
@@ -163,34 +163,87 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     </div>
   </div>
 
+<!-- Offcanvas Menu for Mobile -->
+<div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+  <div class="offcanvas-header border-bottom border-secondary">
+    <h5 class="offcanvas-title text-warning fw-bold" id="mobileMenuLabel" data-translate="menu">Menu</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+
+  <div class="offcanvas-body">
+    <ul class="navbar-nav text-uppercase">
+
+      <li>
+        <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="index.html" data-translate="home">
+          <i class="fa-solid fa-house me-2"></i> Home
+        </a>
+      </li>
+
+      <!-- Trips Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-warning fw-semibold d-flex align-items-center gap-2" href="#" id="trips-mobile" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-translate="trips">
+          <i class="fa-solid fa-plane-departure me-2"></i> Trips
+        </a>
+        <ul class="dropdown-menu bg-dark border-0 shadow">
+          <li><a class="dropdown-item text-light" href="travels_cairo.html" data-translate="cairoTravel">Cairo Travel</a></li>
+          <li><a class="dropdown-item text-light" href="travels_luxor.html" data-translate="luxorTravel">Luxor Travel</a></li>
+          <li><a class="dropdown-item text-light" href="trips/boattrips.html" data-translate="seaTrips">Sea Trips</a></li>
+          <li><a class="dropdown-item text-light" href="trips/safari.html" data-translate="safari">Safari</a></li>
+          <li><a class="dropdown-item text-light" href="trips/diving.html" data-translate="diving">Diving</a></li>
+          <li><a class="dropdown-item text-light" href="trips/seaact.html" data-translate="thingsToDo">Things to Do</a></li>
+        </ul>
+      </li>
+
+
+      <li>
+        <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="transport.html" data-translate="transport">
+          <i class="fa-solid fa-bus me-2"></i> Transport
+        </a>
+      </li>
+      <li>
+        <a class="nav-link text-warning fw-semibold d-flex align-items-center gap-2" href="About.html" data-translate="about">
+          <i class="fa-solid fa-circle-info me-2"></i> About
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</div>
+<!-- Hero Section with One Image -->
+<!-- Modal Luxor -->
+<!-- Luxor Tour Section -->
 
 <section class="cairo-hero position-relative text-center">
   <div class="cairo-hero-overlay position-absolute top-0 start-0 w-100 h-100"></div>
 
   <img 
-    src="../assets/luxorimg/lux2.jpg" 
+    src="../assets/seaimg/binc.jpg" 
     class="cairo-hero-img" 
     alt="Luxor By Bus"
   />
 
   <div class="cairo-hero-content position-absolute top-50 start-50 translate-middle text-white px-3">
-    <h1 data-translate="travelPrivateLuxorTour" class="fw-bold cairo-hero-title mb-0">Program of Private Luxor Day Tour
+    <h1 data-translate="boattrips_mahmyaisland_title" class="fw-bold cairo-hero-title mb-0">MAHMYA ISLAND
     </h1>
   </div>
 </section>
-
 <!-- Main Section -->
-<!-- Main Tour Section -->
+
 <div class="container py-5">
   <div class="row g-4 align-items-start">
-    
     <!-- Carousel -->
-    <div class="col-lg-8 col-md-12 mb-4">
+    <div class="col-12 mb-4">
       <div class="swiper mySwiper cairo-carousel rounded-4 overflow-hidden shadow-sm">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="../assets/luxorimg/2l1.jpg" class="w-100" alt="Luxor Image 1" /></div>
-          <div class="swiper-slide"><img src="../assets/luxorimg/2l2.jpg" class="w-100" alt="Luxor Image 2" /></div>
-          <div class="swiper-slide"><img src="../assets/luxorimg/2l3.jpg" class="w-100" alt="Luxor Image 3" /></div>
+          <div class="swiper-slide">
+            <img src="../assets/seaimgs/binc1.jpg" class="w-100" alt="Sea Trip Image 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../assets/seaimgs/binc2.jpg" class="w-100" alt="Sea Trip Image 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../assets/seaimgs/binc3.jpg" class="w-100" alt="Sea Trip Image 3" />
+          </div>
         </div>
 
         <!-- Pagination + Navigation -->
@@ -199,94 +252,75 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         <div class="swiper-button-prev"></div>
       </div>
     </div>
-
-    <!-- Content Section -->
-    <div class="col-lg-4">
-      <div class="tour-info-box bg-white shadow-sm p-4 rounded">
-        <h3 class="section-heading text-center mb-4 fw-bold" data-translate="travelPrices">Prices</h3>
-        <table class="private-table w-100 mb-4">
-          <tr>
-            <th data-translate="travelNumberOfPeople">Number of people</th>
-            <th data-translate="travelVehicle">Vehicle</th>
-            <th data-translate="travelPricePerAdult">Price per Adult</th>
-          </tr>
-          <tr>
-            <td data-translate="travelTwoPersons">2 persons</td>
-            <td data-translate="travelPrivateCar">Private car</td>
-            <td data-translate="travel125">125 € p.P.</td>
-          </tr>
-          <tr>
-            <td data-translate="travelFourPersons">4 persons</td>
-            <td data-translate="travelPrivateMiniBus">Private mini bus</td>
-            <td data-translate="travel100">100 € p.P.</td>
-          </tr>
-          <tr>
-            <td data-translate="travelSixToEightPersons">6 - 8 persons</td>
-            <td data-translate="travelPrivateMiniBus">Private mini bus</td>
-            <td data-translate="travel80">80 € p.P.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
   </div>
 </div>
 
-<!-- Tour Details -->
-<div class="container luxor-content pb-5">
-  <h2 class="luxor-subtitle" data-translate="travelProgramTitle">Program Highlights</h2>
-  <ul class="luxor-list">
-    <li data-translate="travelKarnakTemple">Karnak Temple</li>
-    <li data-translate="travelColossiMemnon">Colossi of Memnon</li>
-    <li data-translate="travelTempleHatshepsut">Mortuary Temple of Hatshepsut</li>
-    <li data-translate="travelValleyOfKings">Valley of the Kings</li>
-    <li data-translate="travelLunch">Lunch (Egyptian specialties)</li>
-    <li data-translate="travelNileExcursion">Nile excursion lasts 1 hour (FREE only with us)</li>
-  </ul>
+<!-- Content Section -->
+<section id="mahmya-details" class="luxor-container py-4">
+  <div class="luxor-content container">
+    <ul class="luxor-list">
+      <li class="luxor-list-item" data-translate="boattrips_snorkeling">Snorkeling at Bianca Island</li>
+      <li class="luxor-list-item" data-translate="boattrips_lunch">Lunch</li>
+    </ul>
+  
+    <h2 class="luxor-subtitle" data-translate="boattrips_program_title">
+      Bianca Island Hurghada Snorkeling Trip
+    </h2>
+  
+    <h3 class="luxor-subtitle" data-translate="boattrips_description_title">
+      Description for Bianca Island Hurghada Snorkeling Trip
+    </h3>
+  
+    <p class="luxor-paragraph" data-translate="boattrips_pickup_description">
+      Start your day with a comfortable pickup from your hotel and head to the marina, where your boat to Bianca Island awaits. Onboard, you’ll be welcomed by a friendly crew and provided with snorkeling gear for an unforgettable underwater adventure in the Red Sea.
+    </p>
+  
+    <p class="luxor-paragraph" data-translate="boattrips_sail_red_sea">
+      As you sail towards Bianca Island, enjoy the stunning sea views and sunshine. Upon arrival, you’ll experience an exclusive private island paradise — a blend of relaxation, adventure, and family-friendly fun. The island features an open bar, premium amenities, and a lively atmosphere perfect for all ages.
+    </p>
+  
+    <p class="luxor-paragraph" data-translate="boattrips_after_lunch">
+      Guests can enjoy a delicious buffet lunch, then take part in activities such as a glass-bottom boat ride, water sports, beach volleyball, and exciting foam parties. Relax on the pristine beach or dive again into the crystal-clear waters of the Red Sea.
+    </p>
+  
+    <p class="luxor-paragraph" data-translate="boattrips_return_port">
+      After a day full of adventure and fun on Bianca Island, you’ll cruise back to the marina in the late afternoon, where your driver will transfer you comfortably back to your hotel.
+    </p>
+  </div>
+  
 
-  <h2 class="luxor-subtitle" data-translate="travelDescriptionLuxorTour">
-    Description for Private Luxor Day Tour
-  </h2>
+  <!-- Included Section -->
+<div class="mt-5">
+  <h4 class="fw-bold mb-3" data-translate="travelIncludedTitleSea">Included</h4>
+  <ul class="list-unstyled sea-includes">
+    <li data-translate="travelIncludedPickupSea">Round-trip transfer from your hotel in Hurghada</li>
+    <li data-translate="travelIncludedBoatSea">Speedboat trip on the Red Sea</li>
+    <li data-translate="travelIncludedFeesSea">Entrance fees to the marine station</li>
+    <li data-translate="travelIncludedLunchSea">Lunch box</li>
+    <li data-translate="travelIncludedFruitsSea">Fruits</li>
+    <li data-translate="travelIncludedWaterSea">Bottled water</li>
+    <li data-translate="travelIncludedSoftDrinksSea">Soft drinks</li>
+    <li data-translate="travelIncludedJuiceSea">Juice</li>
+    <li data-translate="travelIncludedNatureSea">Crystal-clear waters and pristine beaches</li>
+    <li data-translate="travelIncludedCaptainSea">Professional boat captain</li>
+    <li data-translate="travelIncludedLifeJacketsSea">Life jackets</li>
+    <li data-translate="travelIncludedLifeSnorkiling">Snorkiling equipment</li>
 
-  <p class="luxor-paragraph" data-translate="travelPickUp">
-    You will be picked up early in the morning...
-  </p>
-  <p class="luxor-paragraph" data-translate="travelShortBreak">
-    Along the way, you take a short break...
-  </p>
-  <p class="luxor-paragraph" data-translate="travelDriveLuxor">
-    Then drive along a densely populated...
-  </p>
-  <p class="luxor-paragraph" data-translate="travelArrivalLuxor">
-    Upon arrival in Luxor...
-  </p>
-  <p class="luxor-paragraph" data-translate="travelLunchBreak">
-    After your lunch break...
-  </p>
-  <p class="luxor-paragraph" data-translate="travelReturnHurghada">
-    Then you head back to Hurghada...
-  </p>
-  <h2 class="luxor-subtitle mt-5" data-translate="travelIncludedTitle">Included</h2>
-  <ul class="luxor-list">
-    <li data-translate="travelIncludedPickup">Pickup and drop-off from your hotel in Hurghada</li>
-    <li data-translate="travelIncludedGuide">Professional English-speaking guide</li>
-    <li data-translate="travelIncludedLunch">Lunch at a local restaurant</li>
-    <li data-translate="travelIncludedTickets">Entrance tickets to all mentioned sites</li>
-    <li data-translate="travelIncludedNileTrip">Free 1-hour Nile boat trip</li>
-    <li data-translate="travelIncludedTransport">Air-conditioned vehicle transfers</li>
-  </ul>
-
-  <!-- ✅ Not Included Section -->
-  <h2 class="luxor-subtitle mt-4" data-translate="travelNotIncludedTitle">Not Included</h2>
-  <ul class="luxor-list">
-    <li data-translate="travelNotIncludedDrinks">Drinks during lunch</li>
-    <li data-translate="travelNotIncludedTipping">Personal expenses & tipping</li>
-    <li data-translate="travelNotIncludedOptional">Optional activities not mentioned in the program</li>
-    <li data-translate="travelNotIncludedCamera">Camera tickets (if required)</li>
   </ul>
 </div>
 
-<!-- Booking Form (Always at Bottom) -->
+<!-- Not Included Section -->
+<div class="mt-4">
+  <h4 class="fw-bold mb-3" data-translate="travelNotIncludedTitleSea">Not Included</h4>
+  <ul class="list-unstyled sea-not-includes">
+    <li data-translate="travelNotIncludedTransferSea">Transfer from/to Makadi, El Gouna, Sahl Hasheesh, or Soma Bay (unless added on site)</li>
+    <li data-translate="travelNotIncludedPersonalSea">Personal expenses</li>
+  </ul>
+</div>
+
+</section>
+
+<!-- Booking Form Section -->
 <section class="booking-section py-5 bg-light">
   <div class="container">
     <div class="row justify-content-center">
@@ -333,6 +367,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 
 
 
+  
 <footer class="footer text-light pt-4 pb-3">
   <div class="container">
     <div class="row gy-4">
@@ -382,27 +417,28 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     </div>
   </div>
 </footer>
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
-       <!-- Core JS-->
-    <!-- Core JS-->
-    <script src="../js/scripts.js"></script>
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+ <!-- Core JS-->
+<!-- Core JS-->
+<script src="../js/scripts.js"></script>
+<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
 
-        <!-- Swiper JS -->
+  <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!-- Bootstrap JS (لو مش ضايفه) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-        <!--Start of Tawk.to Script-->
+  <!--Start of Tawk.to Script-->
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -431,8 +467,8 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   </script>
 <!--End of Tawk.to Script-->
 
-  <!--End of Tawk.to Script-->
-  
+<!--End of Tawk.to Script-->
+
 </body>
 
 </html>

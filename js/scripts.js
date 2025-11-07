@@ -155,6 +155,20 @@ window.onclick = function (event) {
 const translations = {
  
     ru: {
+        "Poweredby":"Aangedreven en ontwikkeld door Next Step Solutions",
+
+        "travelIncludedLifeSnorkiling":"Snorkeluitrusting",
+        "boattrips_snorkeling": "Snorkelen op Bianca Island",
+  "boattrips_lunch": "Lunch",
+  "boattrips_program_title": "Snorkeltrip naar Bianca Island Hurghada",
+  "boattrips_description_title": "Beschrijving van de snorkeltrip naar Bianca Island Hurghada",
+  "boattrips_pickup_description": "Begin je dag met een comfortabele ophaalservice vanuit je hotel en vertrek naar de haven, waar de boot naar Bianca Island op je wacht. Aan boord word je verwelkomd door een vriendelijk team en krijg je snorkeluitrusting voor een onvergetelijk onderwateravontuur in de Rode Zee.",
+  "boattrips_sail_red_sea": "Terwijl je naar Bianca Island vaart, geniet je van het prachtige uitzicht over de zee en de zon. Bij aankomst ervaar je een exclusief privé-eilandparadijs – een perfecte combinatie van ontspanning, avontuur en plezier voor het hele gezin. Het eiland beschikt over een open bar, premium faciliteiten en een levendige sfeer voor alle leeftijden.",
+  "boattrips_after_lunch": "Gasten kunnen genieten van een heerlijk lunchbuffet en vervolgens deelnemen aan activiteiten zoals een boottocht met glazen bodem, watersporten, strandvolleybal en levendige schuimfeesten. Ontspan op het ongerepte strand of duik opnieuw in het kristalheldere water van de Rode Zee.",
+  "boattrips_return_port": "Na een dag vol avontuur en plezier op Bianca Island vaar je in de late namiddag terug naar de haven, waar je chauffeur je comfortabel terugbrengt naar je hotel.",
+        "luxor_tombs_title": "Bezoek aan de Vallei der Koningen",
+  "luxor_tombs_desc": "Ontdek drie van de meest indrukwekkende graven van de in totaal 65 in de Vallei der Koningen. Bewonder de oude kunst, kleuren en hiërogliefen die de verhalen van de Egyptische farao’s vertellen.",
+        "travelDescriptionCairoTour2":"Beschrijving van de tour naar Caïro met de bus",
         "travelIncludedDesertSafariHurghada": "Woestijnsafari-avontuur per jeep of quad",
   "travelIncludedBedouinVillageHurghada": "Bezoek aan een Bedoeïenendorp en leer hun levensstijl kennen",
   "travelIncludedTeaHurghada": "Traditionele Bedoeïen-thee en kameelrijervaring",
@@ -707,7 +721,7 @@ const translations = {
 "travelSightseeing": "Stadstour",
 "travelLunchCairo": "Lunch",
 "travelDescriptionCairoTour": "Beschrijving van de privétour naar Caïro",
-"travelPickUpCairo": "We halen je op bij je hotel om 03:00 uur...",
+"travelPickUpCairo": "We halen je op bij je hotel om 12:00 uur...",
 "travelShortBreakCairo": "Rond 05:30 uur maken we een korte stop...",
 "travelArrivalCairo": "We arriveren in Caïro rond 08:00 uur...",
 "travelEgyptianMuseumTour": "Daarna bezoeken we het Egyptisch Museum...",
@@ -1020,6 +1034,7 @@ const translations = {
   "boattrips_book_now": "Boek nu",
   "boattrips_more_details": " meer details",
   "boattrips_mahmyaisland_title": "Mahmya Eiland",
+  "boattrips_mahmyaisland_title": "Bianca Eiland",
   "boattrips_mahmyaisland_price": "75,00 EUR",
   "boattrips_mahmyaisland_title_small": "Mahmya Eiland",
   "boattrips_aquarium_title": "Aquarium",
@@ -1240,7 +1255,7 @@ const translations = {
   "travelLunchCairo": "Lunch",
 
   "travelDescriptionCairoTour": "Beschrijving van de privétour naar Caïro",
-  "travelPickUpCairo": "We halen je om 3:00 uur op bij het hotel en rijden ongeveer 430 km naar Caïro (via een alternatieve route vanaf Marsa Alam) met een bus met airconditioning.",
+  "travelPickUpCairo": "We halen je om 12:00 uur op bij het hotel en rijden ongeveer 430 km naar Caïro (via een alternatieve route vanaf Marsa Alam) met een bus met airconditioning.",
   "travelShortBreakCairo": "Rond 5:30 maken we een korte stop in een restaurant.",
   "travelCityTourCairo": "We arriveren in Caïro rond 8:00 uur. Eerst maken we een korte stadstour door oud Caïro, zodat je het echte leven in Egypte kunt zien.",
   "travelEgyptianMuseumVisit": "Daarna bezoeken we het Egyptisch Museum, een schatkamer van 7000 jaar beschaving. Het erfgoed van de oude Egyptische cultuur bevindt zich in het Egyptisch Museum in Caïro, een van de belangrijkste musea ter wereld. Het vertelt het verhaal van een intelligent volk en zijn grote prestaties. Zelfs in de museumtuin voel je de charme van de oude kunstwerken en de magie van het oude Egypte. Het museum ademt de glorie van het verleden, en in de ogen van de beelden zie je het licht van vervlogen tijden.",
@@ -1593,6 +1608,19 @@ const translations = {
     },
 
     gr:{
+        "Poweredby":"Bereitgestellt und entwickelt von Next Step Solutions",
+        "travelIncludedLifeSnorkiling":"Schnorchelausrüstung",
+        "boattrips_snorkeling": "Schnorcheln auf der Bianca-Insel",
+  "boattrips_lunch": "Mittagessen",
+  "boattrips_program_title": "Schnorchelausflug zur Bianca-Insel in Hurghada",
+  "boattrips_description_title": "Beschreibung des Schnorchelausflugs zur Bianca-Insel in Hurghada",
+  "boattrips_pickup_description": "Beginnen Sie Ihren Tag mit einer bequemen Abholung von Ihrem Hotel und fahren Sie zur Marina, wo Ihr Boot zur Bianca-Insel wartet. An Bord werden Sie von einer freundlichen Crew begrüßt und mit Schnorchelausrüstung für ein unvergessliches Unterwasserabenteuer im Roten Meer ausgestattet.",
+  "boattrips_sail_red_sea": "Während Sie zur Bianca-Insel segeln, genießen Sie die atemberaubende Aussicht auf das Meer und den Sonnenschein. Nach Ihrer Ankunft erwartet Sie ein exklusives privates Inselparadies – eine perfekte Mischung aus Entspannung, Abenteuer und familienfreundlichem Spaß. Die Insel bietet eine offene Bar, Premium-Annehmlichkeiten und eine lebendige Atmosphäre für alle Altersgruppen.",
+  "boattrips_after_lunch": "Die Gäste können ein köstliches Mittagsbuffet genießen und anschließend an Aktivitäten wie einer Glasbodenbootfahrt, Wassersport, Beachvolleyball und spannenden Schaumpartys teilnehmen. Entspannen Sie am unberührten Strand oder tauchen Sie erneut in das kristallklare Wasser des Roten Meeres ein.",
+  "boattrips_return_port": "Nach einem Tag voller Abenteuer und Spaß auf der Bianca-Insel kehren Sie am späten Nachmittag zur Marina zurück, wo Ihr Fahrer Sie bequem zu Ihrem Hotel bringt.",
+        "luxor_tombs_title": "Besuch des Tals der Könige",
+  "luxor_tombs_desc": "Entdecken Sie drei der beeindruckendsten Gräber von insgesamt 65 im Tal der Könige. Bewundern Sie die antike Kunst, die Farben und Hieroglyphen, die die Geschichten der Pharaonen Ägyptens erzählen.",
+        "travelDescriptionCairoTour2":"Beschreibung der Tour nach Kairo mit dem Bus",
         "travelIncludedDesertSafariHurghada": "Wüstensafari-Abenteuer mit Jeep oder Quad",
   "travelIncludedBedouinVillageHurghada": "Besuch eines Beduinendorfs und Einblick in ihre Lebensweise",
   "travelIncludedTeaHurghada": "Traditioneller Beduinentee und Kamelreiten-Erlebnis",
@@ -2443,7 +2471,7 @@ const translations = {
         "travelSightseeing": "Stadtrundfahrt",
         "travelLunchCairo": "Mittagessen",
         "travelDescriptionCairoTour": "Beschreibung der privaten Kairo-Tour",
-        "travelPickUpCairo": "Wir holen Sie um 3:00 Uhr vom Hotel ab...",
+        "travelPickUpCairo": "Wir holen Sie um 12:00 Uhr vom Hotel ab...",
         "travelShortBreakCairo": "Gegen 5:30 Uhr kurze Pause...",
         "travelArrivalCairo": "Gegen 8:00 Uhr erreichen wir Kairo...",
         "travelEgyptianMuseumTour": "Dann besuchen wir das Ägyptische Museum...",
@@ -2755,6 +2783,8 @@ const translations = {
         "boattrips_more_details": "Mehr Details",
       
         "boattrips_mahmyaisland_title": "Mahmya Insel",
+        "boattrips_mahmyaisland_title": "Bianca Insel",
+
         "boattrips_mahmyaisland_price": "75,00 EUR",
         "boattrips_mahmyaisland_title_small": "Mahmya Insel",
       
@@ -2981,7 +3011,7 @@ const translations = {
       "travelLunchCairo": "Mittagessen",
       
       "travelDescriptionCairoTour": "Beschreibung der privaten Kairo-Tour",
-      "travelPickUpCairo": "Wir holen Sie um 3:00 Uhr von Ihrem Hotel ab und fahren ca. 430 km nach Kairo (andere Route von Marsa Alam nach Kairo) in einem klimatisierten Auto oder Minibus.",
+      "travelPickUpCairo": "Wir holen Sie um 12:00 Uhr von Ihrem Hotel ab und fahren ca. 430 km nach Kairo (andere Route von Marsa Alam nach Kairo) in einem klimatisierten Auto oder Minibus.",
       "travelShortBreakCairo": "Gegen 5:30 Uhr machen wir eine kurze Pause in einem Restaurant.",
       "travelCityTourCairo": "Wir erreichen Kairo gegen 8:00 Uhr. Zuerst machen wir eine kurze Tour durch die Altstadt, damit Sie das wahre Leben in Ägypten sehen können.",
       "travelEgyptianMuseumVisit": "Dann besuchen wir das Ägyptische Museum, Schatzkammer von 7000 Jahren Zivilisation. Das Erbe der alten ägyptischen Kultur befindet sich im Ägyptischen Museum in Kairo, einem der wichtigsten Museen der Welt. Schon im Garten spürt man den Charme der Werke und die Magie des alten Ägypten. Das Museum ist erfüllt vom Duft der glorreichen Vergangenheit, und in den Augen der Statuen erkennt man das Licht vergangener Zeiten.",
@@ -3065,7 +3095,7 @@ const translations = {
       "travelLunchCairo": "Mittagessen",
       
       "travelDescriptionCairoTour": "Beschreibung der privaten Kairo-Tour",
-      "travelPickUpCairo": "Wir holen Sie um 3:00 Uhr von Ihrem Hotel ab und fahren ca. 430 km nach Kairo (über eine andere Route von Marsa Alam nach Kairo) mit einem klimatisierten Auto oder Minibus.",
+      "travelPickUpCairo": "Wir holen Sie um 12:00 Uhr von Ihrem Hotel ab und fahren ca. 430 km nach Kairo (über eine andere Route von Marsa Alam nach Kairo) mit einem klimatisierten Auto oder Minibus.",
       "travelShortBreakCairo": "Gegen 5:30 Uhr machen wir eine kurze Pause in einem Restaurant.",
       "travelCityTourCairo": "Wir erreichen Kairo gegen 8:00 Uhr. Zuerst machen wir eine kurze Tour durch das alte Kairo, damit Sie das echte ägyptische Leben sehen und erleben können.",
       "travelEgyptianMuseumVisit": "Dann besuchen wir das Ägyptische Museum, den Schatz von 7000 Jahren Zivilisation. Das Erbe der altägyptischen Kultur befindet sich im Ägyptischen Museum in Kairo, einem der wichtigsten Museen der Welt. Schon im Garten des Museums spürt man den Charme der wunderbaren Werke und die Magie des alten Ägyptens.",
