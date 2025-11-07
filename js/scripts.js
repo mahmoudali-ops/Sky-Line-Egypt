@@ -155,6 +155,9 @@ window.onclick = function (event) {
 const translations = {
  
     ru: {
+        "travelIncludedDesertSafariHurghada": "Woestijnsafari-avontuur per jeep of quad",
+  "travelIncludedBedouinVillageHurghada": "Bezoek aan een Bedoeïenendorp en leer hun levensstijl kennen",
+  "travelIncludedTeaHurghada": "Traditionele Bedoeïen-thee en kameelrijervaring",
       "travelNotIncludedTitleSea": "Niet inbegrepen",
   "travelIncludedPickupSea": "Retourtransfer vanaf uw hotel in Hurghada",
   "travelIncludedBoatSea": "Speedboottocht op de Rode Zee",
@@ -511,7 +514,7 @@ const translations = {
   "arrival_safari": "Aankomst bij safaristation",
   "back_hotel": "Terug naar hotel",
   "description_5hours": "Beschrijving van de 5-uur durende quad- en kameeltocht",
-  "quad_pickup": "We halen je rond 14:30 op bij het hotel en brengen je naar het quadstation...",
+  "quad_pickup": "We halen je rond 12:30 op bij het hotel en brengen je naar het quadstation...",
   "quad_instructions": "Alle quads zijn uitgerust met een automatisch besturingssysteem, je hoeft alleen gas en rem te gebruiken...",
   "quad_drive": "We rijden ongeveer 1 uur (ca. 25 km) met de quad totdat we het Bedoeïenendorp bereiken...",
   "bedouin_village": "Vriendelijke Bedoeïenen heten je welkom in hun dorp...",
@@ -1590,6 +1593,9 @@ const translations = {
     },
 
     gr:{
+        "travelIncludedDesertSafariHurghada": "Wüstensafari-Abenteuer mit Jeep oder Quad",
+  "travelIncludedBedouinVillageHurghada": "Besuch eines Beduinendorfs und Einblick in ihre Lebensweise",
+  "travelIncludedTeaHurghada": "Traditioneller Beduinentee und Kamelreiten-Erlebnis",
       "travelNotIncludedTitleSea": "Nicht inklusive",
       "travelIncludedTitleSea": "Inklusive",
       "travelIncludedPickupSea": "Hin- und Rücktransfer von Ihrem Hotel in Hurghada",
@@ -2253,7 +2259,7 @@ const translations = {
         "arrival_safari": "Ankunft an der Safari-Station",
         "back_hotel": "Rückfahrt zum Hotel",
         "description_5hours": "Beschreibung der 5-stündigen Quad- & Kamel-Safari",
-        "quad_pickup": "Wir holen Sie gegen 14:30 Uhr vom Hotel ab und bringen Sie zur Quad-Station...",
+        "quad_pickup": "Wir holen Sie gegen 12:30 Uhr vom Hotel ab und bringen Sie zur Quad-Station...",
         "quad_instructions": "Alle Quads sind mit einem automatischen Steuerungssystem ausgestattet, Sie benutzen nur Gas und Bremse...",
         "quad_drive": "Wir fahren ca. 1 Stunde (ca. 25 km) mit dem Quad, bis wir das Beduinendorf erreichen...",
         "bedouin_village": "Die freundlichen Beduinen heißen Sie in ihrem Dorf willkommen...",
