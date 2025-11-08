@@ -155,6 +155,15 @@ window.onclick = function (event) {
 const translations = {
  
     ru: {
+        "TransferAirportTaxiServices": "Luchthaventransfer & Taxiservice",
+  "TransferNeedTransportation": "Heeft u betrouwbaar vervoer van of naar de luchthaven van Hurghada nodig? Sky Line Egypt Travel biedt comfortabele en veilige transfers – ontspan, wij regelen de rest.",
+  "TransferInTime": "Op tijd",
+  "TransferSafety": "Veiligheid",
+  "TransferTrustful": "Betrouwbaar",
+  "TransferHighQuality": "Hoge kwaliteit",
+  "MeetAssistTitle": "Ontvangst- en begeleidingsservice",
+  "MeetAssistDescription": "Hallo en welkom! We zijn blij om onze ‘Meet and Assist’-service op de luchthaven aan te bieden. Met deze service krijgt u uw visum inbegrepen, evenals een gemakkelijke transfer – allemaal voor slechts 35 euro. We doen er alles aan om uw reis zo soepel en aangenaam mogelijk te maken. Bedankt dat u voor ons heeft gekozen!",
+  "MeetAssistToGouna": "Gaat u van de luchthaven naar El Gouna? Dan is de totale prijs slechts 40 euro.",
         "Poweredby":"Aangedreven en ontwikkeld door Next Step Solutions",
 
         "travelIncludedLifeSnorkiling":"Snorkeluitrusting",
@@ -1608,6 +1617,15 @@ const translations = {
     },
 
     gr:{
+        "MeetAssistToGouna": "Wenn Sie vom Flughafen nach El Gouna fahren, beträgt der Gesamtpreis nur 40 Euro.",
+        "TransferAirportTaxiServices": "Flughafentransfer & Taxiservice",
+        "TransferNeedTransportation": "Benötigen Sie einen zuverlässigen Transport zum oder vom Flughafen Hurghada? Sky Line Egypt Travel bietet bequeme und sichere Transfers – lehnen Sie sich einfach zurück, wir kümmern uns um den Rest.",
+        "TransferInTime": "Pünktlich",
+        "TransferSafety": "Sicherheit",
+        "TransferTrustful": "Vertrauenswürdig",
+        "TransferHighQuality": "Hohe Qualität",
+        "MeetAssistTitle": "Begrüßungs- und Begleitservice",
+        "MeetAssistDescription": "Hallo und willkommen! Wir freuen uns, Ihnen unseren „Meet and Assist“-Service am Flughafen anbieten zu können. Mit diesem Service erhalten Sie Ihr Visum sowie einen bequemen Transfer – alles für nur 35 Euro. Wir sind hier, um Ihre Reise so angenehm und reibungslos wie möglich zu gestalten. Vielen Dank, dass Sie uns gewählt haben!",
         "Poweredby":"Bereitgestellt und entwickelt von Next Step Solutions",
         "travelIncludedLifeSnorkiling":"Schnorchelausrüstung",
         "boattrips_snorkeling": "Schnorcheln auf der Bianca-Insel",

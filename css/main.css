@@ -4271,3 +4271,41 @@ body {
 }
 
 
+.meet-assist-box {
+  background: linear-gradient(135deg, #fffef8 0%, #fff7e6 100%);
+  border-left: 5px solid #f4b400;
+  transition: all 0.3s ease;
+}
+
+.meet-assist-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(244, 180, 0, 0.3);
+  background: linear-gradient(135deg, #fffaf0 0%, #fff3dc 100%);
+}
+
+.meet-assist-box i {
+  transition: transform 0.3s ease;
+}
+
+.meet-assist-box:hover i {
+  transform: scale(1.1);
+}
+.meet-assist-box {
+  background: linear-gradient(135deg, #fffef8 0%, #fff7e6 100%);
+  border-left: 5px solid #f4b400;
+  transition: all 0.3s ease;
+}
+
+.meet-assist-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(244, 180, 0, 0.3);
+  background: linear-gradient(135deg, #fffaf0 0%, #fff3dc 100%);
+}
+
+.meet-assist-box i {
+  transition: transform 0.3s ease;
+}
+
+.meet-assist-box:hover i {
+  transform: scale(1.1);
+}
