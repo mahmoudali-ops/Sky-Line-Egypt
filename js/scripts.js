@@ -3354,12 +3354,12 @@ const swiper = new Swiper(".mySwiper", {
 
   // EmailJS setup
   (function(){
-    emailjs.init("6DIsguuaGj5e4Sg6m"); // 🔹 ضع هنا المفتاح من EmailJS
+    emailjs.init("XF841Pby7OIn-6-ju"); // 🔹 ضع هنا المفتاح من EmailJS
   })();
 
   document.getElementById("cairo-booking-form").addEventListener("submit", function(e) {
     e.preventDefault();
-    emailjs.sendForm("service_cyqzcvg", "template_mo1oeta", this)
+    emailjs.sendForm("service_32lowdx", "template_ih5j8w9", this)
       .then(() => {
         alert("✅ Your booking request has been sent successfully!");
         this.reset();
