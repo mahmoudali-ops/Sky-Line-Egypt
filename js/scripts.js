@@ -170,7 +170,7 @@ const translations = {
   "TransferHighQuality": "Hoge kwaliteit",
   "MeetAssistTitle": "Ontvangst- en begeleidingsservice",
   "MeetAssistDescription": "Hallo en welkom! We zijn blij om onze ‘Meet and Assist’-service op de luchthaven aan te bieden. Met deze service krijgt u uw visum inbegrepen, evenals een gemakkelijke transfer – allemaal voor slechts 35 euro. We doen er alles aan om uw reis zo soepel en aangenaam mogelijk te maken. Bedankt dat u voor ons heeft gekozen!",
-  "MeetAssistToGouna": "Gaat u van de luchthaven naar El Gouna? Dan is de totale prijs slechts 40 euro.",
+  "MeetAssistToGouna": "Gaat u van de luchthaven naar El Gouna? , Safaga , Makadi Dan is de totale prijs slechts 40 euro.",
         "Poweredby":"Aangedreven en ontwikkeld door Next Step Solutions",
 
         "travelIncludedLifeSnorkiling":"Snorkeluitrusting",
@@ -391,7 +391,7 @@ const translations = {
     
       "luxor_about_title": "Over deze tour",
       "luxor_price_label": "Prijs van de tour:",
-      "luxor_price_value": "80€ / per persoon",
+      "luxor_price_value": "60€ / per persoon",
       "luxor_location_label": "Locatie van de tour:",
       "luxor_location_value": "Luxor",
       "luxor_length_label": "Duur van de tour:",
@@ -1632,7 +1632,7 @@ const translations = {
   "travelIncludedLifeBananaSofa": "Bananenboot + Sofa-Bett",
   "travelIncludedLifeSnorkelingIsland": "Schnorcheln von der Insel",
   "travelIncludedLifeSnorkelingBoat": "Schnorcheln vom Boot",
-        "MeetAssistToGouna": "Wenn Sie vom Flughafen nach El Gouna fahren, beträgt der Gesamtpreis nur 40 Euro.",
+        "MeetAssistToGouna": "Wenn Sie vom Flughafen nach El Gouna , Safaga , Makadi - fahren beträgt der Gesamtpreis nur 40 Euro.",
         "TransferAirportTaxiServices": "Flughafentransfer & Taxiservice",
         "TransferNeedTransportation": "Benötigen Sie einen zuverlässigen Transport zum oder vom Flughafen Hurghada? Sky Line Egypt Travel bietet bequeme und sichere Transfers – lehnen Sie sich einfach zurück, wir kümmern uns um den Rest.",
         "TransferInTime": "Pünktlich",
@@ -1871,7 +1871,7 @@ const translations = {
       
         "luxor_about_title": "Über diese Tour",
         "luxor_price_label": "Tourpreis:",
-        "luxor_price_value": "80€ / pro Person",
+        "luxor_price_value": "60€ / pro Person",
         "luxor_location_label": "Tourort:",
         "luxor_location_value": "Luxor",
         "luxor_length_label": "Tourdauer:",
