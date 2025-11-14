@@ -155,6 +155,9 @@ window.onclick = function (event) {
 const translations = {
  
     ru: {
+        "Luxor Private Tourr": "Privétour naar Luxor",
+        "travel-luxor-card-Luxor By Bus":"Luxor met de bus",
+        "travel-cairo-card-Cairo By Bus": "Caïro met de bus",
         "travelIncludedLifeLunch": "Lunch",
         "travelIncludedLifeDrinksAlcohol": "Drankjes + alcohol",
         "travelIncludedLifeGlassBoat": "Glasboot",
@@ -1624,6 +1627,9 @@ const translations = {
     },
 
     gr:{
+        "Luxor Private Tourr": "Luxor Privétour",
+        "travel-luxor-card-Luxor By Bus": "Luxor mit dem Bus",
+        "travel-cairo-card-Cairo By Bus": "Kairo mit dem Bus",
         
   "travelIncludedLifeLunch": "Mittagessen",
   "travelIncludedLifeDrinksAlcohol": "Getränke + Alkohol",
