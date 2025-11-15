@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.skylineeg.net/</loc>
+    <lastmod>2025-11-15</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.skylineeg.net/index.html</loc>
+    <lastmod>2025-11-15</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.skylineeg.net/About.html</loc>
+    <lastmod>2025-11-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.skylineeg.net/transport.html</loc>
+    <lastmod>2025-11-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.skylineeg.net/travels_cairo.html</loc>
+    <lastmod>2025-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.skylineeg.net/travels_luxor.html</loc>
+    <lastmod>2025-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.skylineeg.net/trips/boattrips.html</loc>
+    <lastmod>2025-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.skylineeg.net/trips/safari.html</loc>
+    <lastmod>2025-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.skylineeg.net/trips/diving.html</loc>
+    <lastmod>2025-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.skylineeg.net/trips/seaact.html</loc>
+    <lastmod>2025-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
