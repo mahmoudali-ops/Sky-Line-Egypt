@@ -44,6 +44,34 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 
   gtag('config', 'AW-17652380032');
 </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17652249207"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17652249207');
+</script>
+<!-- Event snippet for Purchase conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-17652249207/ts-0COiJmbQbEPfkn-FB',
+        'value': 1.0,
+        'currency': 'USD',
+        'transaction_id': '',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
 </head>
 
 <body id="page-top">
@@ -196,7 +224,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   />
 
   <div class="cairo-hero-content position-absolute top-50 start-50 translate-middle text-white px-3">
-    <h1 data-translate="travelPrivateLuxorTour" class="fw-bold cairo-hero-title mb-0">Luxor Tour & Hot Air Balloon Ride
+    <h1 data-translate="Luxor Tour & Hot Air Balloon Ride" class="fw-bold cairo-hero-title mb-0">Luxor Tour & Hot Air Balloon Ride
     </h1>
   </div>
 </section>

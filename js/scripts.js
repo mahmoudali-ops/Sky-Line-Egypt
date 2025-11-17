@@ -155,6 +155,9 @@ window.onclick = function (event) {
 const translations = {
  
     ru: {
+        "Luxor Tour & Hot Air Balloon Ride":"Luxor Tour & Luchtballonvaart",
+        "LuxorSmallGroup":"Luxor Kleinschalige Groepstourr",
+
         "Luxor Private Tourr": "Privétour naar Luxor",
         "travel-luxor-card-Luxor By Bus":"Luxor met de bus",
         "travel-cairo-card-Cairo By Bus": "Caïro met de bus",
@@ -1627,6 +1630,8 @@ const translations = {
     },
 
     gr:{
+        "Luxor Tour & Hot Air Balloon Ride":"Luxor-Tour & Heißluftballonfahrt",
+        "LuxorSmallGroup":"Luxor-Kleingruppentour",
         "Luxor Private Tourr": "Luxor Privétour",
         "travel-luxor-card-Luxor By Bus": "Luxor mit dem Bus",
         "travel-cairo-card-Cairo By Bus": "Kairo mit dem Bus",
