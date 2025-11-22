@@ -4309,3 +4309,1126 @@ body {
 .meet-assist-box:hover i {
   transform: scale(1.1);
 }
+/* ===== Cairo Tour Modern Styling ===== */
+
+/* Section Background */
+#cairo-tour-details {
+  background: linear-gradient(135deg, #eef6ff, #e3eeff);
+  color: #1e293b;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-radius: 15px;
+}
+
+/* Main Title */
+#cairo-tour-details h1 {
+  color: #0b6efd;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  margin-bottom: 35px;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* Sub Titles */
+#cairo-tour-details h3,
+#cairo-tour-details h4 {
+  color: #0a4fa3;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+/* Highlight Important Words */
+.highlight {
+  color: #ff5722;
+  font-weight: 700;
+}
+
+/* List General Style */
+#cairo-tour-details ul li {
+  margin-bottom: 8px;
+  font-size: 1.07rem;
+  padding-left: 5px;
+}
+
+/* Included */
+.cairo-includes li::before {
+  content: "✔ ";
+  color: #0f9d58;
+  font-weight: bold;
+}
+
+/* Not Included */
+.cairo-not-includes li::before {
+  content: "✘ ";
+  color: #e63946;
+  font-weight: bold;
+}
+
+/* Paragraph Box Style */
+.cairo-paragraph {
+  background: #ffffff;
+  padding: 18px 22px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  font-size: 1.06rem;
+  line-height: 1.75;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  border-left: 4px solid #0b6efd;
+  transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.cairo-paragraph:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+/* More spacing for sections */
+#cairo-tour-details .mt-5,
+#cairo-tour-details .mt-4 {
+  margin-top: 35px !important;
+}
+
+/* =======================
+   Cairo Tour Modern Styling 2
+   ======================= */
+
+/* General Container */
+.cairo-container {
+  background: linear-gradient(135deg, #eef6ff, #e3eeff);
+  padding: 40px;
+  border-radius: 18px;
+  margin-bottom: 35px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* Content Wrapper */
+.cairo-content {
+  color: #1e293b;
+}
+
+/* Subtitles */
+.cairo-subtitle {
+  color: #0b6efd;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Tables */
+.cairo-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.07);
+}
+
+.cairo-table th {
+  background: #0b6efd;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 14px;
+  font-size: 1.05rem;
+  text-align: left;
+}
+
+.cairo-table td {
+  padding: 14px;
+  border-bottom: 1px solid #e3e8ef;
+  font-size: 1.03rem;
+}
+
+.cairo-table tr:hover td {
+  background: #f8faff;
+}
+
+/* List Style */
+.cairo-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.cairo-list-item {
+  background: #ffffff;
+  margin-bottom: 10px;
+  padding: 12px 18px;
+  font-size: 1.07rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  border-left: 4px solid #0b6efd;
+  transition: 0.3s;
+}
+
+.cairo-list-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+}
+
+/* Included / Not Included Lists */
+.cairo-includes li,
+.cairo-not-includes li {
+  background: #ffffff;
+  margin-bottom: 10px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.cairo-includes li::before {
+  content: \"✔ \";
+  color: #0f9d58;
+  font-weight: bold;
+}
+
+.cairo-not-includes li::before {
+  content: \"✘ \";
+  color: #e63946;
+  font-weight: bold;
+}
+
+/* Paragraphs */
+.cairo-paragraph {
+  background: #ffffff;
+  padding: 18px 22px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  line-height: 1.75;
+  font-size: 1.06rem;
+  border-left: 4px solid #0b6efd;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: 0.3s ease;
+}
+
+.cairo-paragraph:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+/* ====================================
+   Cairo Small Group – Modern Styling
+   ==================================== */
+
+/* Main Container */
+.cairo-small-container {
+  background: linear-gradient(135deg, #eef6ff, #e3eeff);
+  padding: 35px;
+  border-radius: 18px;
+  margin-bottom: 35px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* Content */
+.cairo-small-content {
+  color: #1e293b;
+}
+
+/* Subtitle Style */
+.cairo-small-subtitle {
+  color: #0b6efd;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.12);
+}
+
+/* List */
+.cairo-small-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.cairo-small-list li {
+  background: #ffffff;
+  margin-bottom: 10px;
+  padding: 12px 18px;
+  font-size: 1.07rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  border-left: 4px solid #0b6efd;
+  transition: 0.3s ease;
+}
+
+.cairo-small-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+}
+
+/* Include / Not Include Styling (same global style already used) */
+.cairo-includes li,
+.cairo-not-includes li {
+  background: #ffffff;
+  margin-bottom: 10px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+/* Highlight icons */
+.cairo-includes li::before {
+  content: "✔ ";
+  color: #0f9d58;
+  font-weight: bold;
+}
+
+.cairo-not-includes li::before {
+  content: "✘ ";
+  color: #e63946;
+  font-weight: bold;
+}
+
+/* Paragraph Style (same modern box) */
+.cairo-small-container p {
+  background: #ffffff;
+  padding: 18px 22px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  line-height: 1.75;
+  font-size: 1.06rem;
+  border-left: 4px solid #0b6efd;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: 0.3s ease;
+}
+
+.cairo-small-container p:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+/* ================================
+   Shared Luxor Page Styling
+   ================================ */
+
+   .luxor-content {
+    max-width: 850px;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+  
+  /* ---------- Titles ---------- */
+  .luxor-subtitle {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #0077b6;
+    background: linear-gradient(to right, #0096c7, #48cae4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* ---------- Paragraphs ---------- */
+  .luxor-paragraph {
+    font-size: 1.07rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 18px;
+    padding-left: 8px;
+    border-left: 3px solid #48cae4;
+  }
+  
+  /* ---------- Lists ---------- */
+  .luxor-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .luxor-list li {
+    font-size: 1.05rem;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    background: #f1fbff;
+    border-left: 4px solid #00b4d8;
+    border-radius: 6px;
+    transition: 0.3s ease;
+  }
+  
+  .luxor-list li:hover {
+    background: #e3f8ff;
+    transform: translateX(5px);
+  }
+  
+  /* ---------- Section Spacing ---------- */
+  .luxor-content h2:not(:first-child) {
+    margin-top: 45px;
+  }
+  
+  /* ---------- Responsive ---------- */
+  @media (max-width: 576px) {
+    .luxor-subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .luxor-paragraph,
+    .luxor-list li {
+      font-size: 1rem;
+    }
+  }
+  
+  /* ================================
+   Luxor Modal / Description Section
+=================================== */
+
+.luxor-description-section {
+  background: #f8fdff;
+  padding: 60px 0;
+}
+
+.luxor-modal-body {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* ---------- Titles ---------- */
+.luxor-modal-subtitle {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #0077b6;
+  background: linear-gradient(to right, #0096c7, #48cae4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ---------- Paragraphs ---------- */
+.luxor-modal-text {
+  font-size: 1.08rem;
+  line-height: 1.85;
+  color: #333;
+  margin-bottom: 18px;
+
+  padding: 10px 14px;
+  background: #ffffff;
+  border-left: 4px solid #00b4d8;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+
+.luxor-modal-text:hover {
+  background: #f0fbff;
+  transform: translateX(5px);
+}
+
+/* ---------- Reuse Luxor Lists (same design) ---------- */
+
+.luxor-subtitle {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  color: #0077b6;
+  background: linear-gradient(to right, #00a8e8, #48cae4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.luxor-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.luxor-list li {
+  font-size: 1.05rem;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  background: #f1fbff;
+  border-left: 4px solid #00b4d8;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.luxor-list li:hover {
+  background: #e3f8ff;
+  transform: translateX(5px);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 576px) {
+  .luxor-modal-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .luxor-modal-text {
+    font-size: 1rem;
+  }
+
+  .luxor-list li {
+    font-size: 1rem;
+  }
+}
+/* ================================
+   Aquarium Page Styling (Unified Theme)
+=================================== */
+
+#aquarium-details {
+  background: #f6fbff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* ----- Main Title ----- */
+#aquarium-details h1 {
+  background: linear-gradient(to right, #0096c7, #48cae4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+/* ----- Overview Paragraph ----- */
+#aquarium-details .lead {
+  max-width: 850px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.15rem;
+  color: #333;
+}
+
+/* ----- All Subtitles (H3 / H4) ----- */
+#aquarium-details h3,
+#aquarium-details h4 {
+  color: #0077b6;
+  font-weight: 700;
+  margin-bottom: 18px;
+  background: linear-gradient(to right, #00a8e8, #48cae4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ----- Program Paragraph ----- */
+#aquarium-details p {
+  font-size: 1.07rem;
+  line-height: 1.8;
+  color: #333;
+  background: #ffffff;
+  padding: 12px 15px;
+  margin-bottom: 18px;
+  border-left: 4px solid #00b4d8;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.04);
+  transition: 0.3s ease;
+}
+
+#aquarium-details p:hover {
+  background: #eefaff;
+  transform: translateX(5px);
+}
+
+/* ----- Lists (Using Luxor Style) ----- */
+.luxor-list li,
+.sea-includes li,
+.sea-not-includes li {
+  font-size: 1.05rem;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  background: #f1fbff;
+  border-left: 4px solid #0096c7;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.luxor-list li:hover,
+.sea-includes li:hover,
+.sea-not-includes li:hover {
+  background: #e3f7ff;
+  transform: translateX(5px);
+}
+
+/* ----- Included / Not Included Wraps ----- */
+.sea-includes,
+.sea-not-includes {
+  padding-left: 0;
+}
+
+/* ----- Responsive ----- */
+@media (max-width: 576px) {
+
+  #aquarium-details h1 {
+    font-size: 1.7rem;
+  }
+
+  #aquarium-details p {
+    font-size: 1rem;
+  }
+
+  .luxor-list li,
+  .sea-includes li,
+  .sea-not-includes li {
+    font-size: 0.97rem;
+  }
+}
+
+
+/* General Reset */
+.trip-title, .trip-subtitle, .trip-text, .trip-list li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Title */
+.trip-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #009ffd, #2a2a72);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2rem;
+}
+
+/* Subtitles */
+.trip-subtitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #0d6efd;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+  position: relative;
+}
+
+/* Subtitles Underline Effect */
+.trip-subtitle::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #0d6efd, #00d4ff);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  border-radius: 10px;
+}
+
+/* Paragraphs */
+.trip-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+  background: #f8faff;
+  padding: 15px 18px;
+  border-left: 4px solid #0d6efd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* List */
+.trip-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.trip-list li {
+  font-size: 1.05rem;
+  background: #eef6ff;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border-left: 4px solid #0d6efd;
+  transition: .3s;
+}
+
+/* Hover effect */
+.trip-list li:hover {
+  background: #dceeff;
+  transform: translateX(4px);
+}
+
+/* ===========================
+   GENERAL SECTION STYLE
+=========================== */
+#holahola-details {
+  background: #f7fbff; /* خلفية فاتحة ومريحة */
+  border-radius: 20px;
+  padding: 40px 20px;
+}
+
+/* ===========================
+   MAIN TITLE
+=========================== */
+#holahola-details h1 {
+  font-size: 2.4rem !important;
+  font-weight: 800;
+  background: linear-gradient(90deg, #00b4db, #0083b0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2.4rem !important;
+}
+
+/* ===========================
+   SUBTITLES (Experience – Activities – Highlights…)
+=========================== */
+#holahola-details h2 {
+  font-size: 1.6rem !important;
+  font-weight: 700 !important;
+  color: #0083b0;
+  position: relative;
+  padding-left: 5px;
+}
+
+/* خط جميل أسفل العنوان */
+#holahola-details h2::after {
+  content: "";
+  width: 65px;
+  height: 3px;
+  background: linear-gradient(90deg, #00b4db, #0083b0);
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  border-radius: 8px;
+}
+
+/* ===========================
+   PARAGRAPHS
+=========================== */
+#holahola-details p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #333;
+  background: #ffffff;
+  padding: 14px 16px;
+  border-left: 4px solid #00a2d4;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+}
+
+/* ===========================
+   LISTS
+=========================== */
+#holahola-details ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.4rem;
+}
+
+#holahola-details ul li {
+  background: #eef8ff;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border-left: 4px solid #00a2d4;
+  font-size: 1.05rem;
+  transition: 0.3s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+/* Hover Effect */
+#holahola-details ul li:hover {
+  background: #dff1ff;
+  transform: translateX(4px);
+}
+
+/* ===========================
+   OVERALL SECTION STYLE
+=========================== */
+#fishing-details {
+  background: #f4faff; /* خلفية بحرية هادئة */
+  padding: 45px 20px;
+  border-radius: 20px;
+}
+
+/* ===========================
+   MAIN TITLE
+=========================== */
+#fishing-details h1 {
+  font-size: 2.4rem !important;
+  font-weight: 800;
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2.4rem !important;
+}
+
+/* ===========================
+   H2 TITLES
+=========================== */
+#fishing-details h2 {
+  font-size: 1.65rem !important;
+  font-weight: 700 !important;
+  color: #0072ff;
+  position: relative;
+  padding-left: 6px;
+  margin-top: 2.2rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* شريط تحت عنوان */
+#fishing-details h2::after {
+  content: "";
+  width: 70px;
+  height: 3px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  border-radius: 8px;
+}
+
+/* ===========================
+   H3 + H4 (لأن عندك أنواع أسماك و Included)
+=========================== */
+#fishing-details h3,
+#fishing-details h4 {
+  font-weight: 700;
+  color: #0088cc;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+  position: relative;
+  padding-left: 6px;
+}
+
+#fishing-details h3::after,
+#fishing-details h4::after {
+  content: "";
+  width: 55px;
+  height: 3px;
+  background: #00bfff;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  border-radius: 8px;
+}
+
+/* ===========================
+   PARAGRAPHS
+=========================== */
+#fishing-details p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #333;
+  background: #ffffff;
+  padding: 14px 16px;
+  border-left: 4px solid #00a8ff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+}
+
+/* ===========================
+   LISTS (Normal lists)
+=========================== */
+#fishing-details ul:not(.sea-includes):not(.sea-not-includes) {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.4rem;
+}
+
+#fishing-details ul:not(.sea-includes):not(.sea-not-includes) li {
+  background: #e8f5ff;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border-left: 4px solid #0099dd;
+  font-size: 1.05rem;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+#fishing-details ul:not(.sea-includes):not(.sea-not-includes) li:hover {
+  background: #d6eeff;
+  transform: translateX(4px);
+}
+
+/* ===========================
+   SEA-INCLUDES (القسم المخصص)
+=========================== */
+.sea-includes li,
+.sea-not-includes li {
+  background: #ffffff;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border-left: 4px solid #00bfff;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  transition: .3s;
+}
+
+.sea-includes li:hover,
+.sea-not-includes li:hover {
+  background: #eefaff;
+  transform: translateX(4px);
+}
+/* ===========================
+   SECTION STYLE
+=========================== */
+#speed-boat-details {
+  background: #f4faff;
+  padding: 50px 20px;
+  border-radius: 20px;
+}
+
+/* ===========================
+   MAIN TITLE
+=========================== */
+#speed-boat-details h1 {
+  font-size: 2.4rem !important;
+  font-weight: 800;
+  text-align: center;
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2.5rem !important;
+}
+
+/* ===========================
+   PARAGRAPHS
+=========================== */
+#speed-boat-details p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #333;
+  background: #ffffff;
+  padding: 14px 16px;
+  border-left: 4px solid #00a8ff;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+}
+
+/* ===========================
+   H3 TITLES
+=========================== */
+#speed-boat-details h3 {
+  font-weight: 700;
+  color: #0072ff;
+  position: relative;
+  padding-left: 6px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#speed-boat-details h3::after {
+  content: "";
+  width: 55px;
+  height: 3px;
+  background: #00bfff;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  border-radius: 8px;
+}
+
+/* ===========================
+   LISTS
+=========================== */
+#speed-boat-details ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+#speed-boat-details ul li {
+  background: #e8f5ff;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border-left: 4px solid #0099dd;
+  font-size: 1.05rem;
+  transition: 0.3s;
+}
+
+#speed-boat-details ul li:hover {
+  background: #d6eeff;
+  transform: translateX(4px);
+}
+
+/* ===========================
+   EQUIPMENT SECTION
+=========================== */
+.equipment-section {
+  background: #f0f8ff;
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin-bottom: 2.5rem;
+}
+
+/* ===========================
+   SECTION TITLE
+=========================== */
+.equipment-section h3 {
+  font-size: 1.6rem;
+  color: #0072ff;
+  position: relative;
+  padding-left: 6px;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.equipment-section h3::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: #00bfff;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  border-radius: 8px;
+}
+
+/* ===========================
+   LISTS
+=========================== */
+.equipment-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.equipment-section ul li {
+  background: #e6f4ff;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  border-left: 4px solid #0099dd;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.equipment-section ul li:hover {
+  background: #d0eaff;
+  transform: translateX(4px);
+  cursor: default;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+@media (max-width: 768px) {
+  .equipment-section h3 {
+    font-size: 1.4rem;
+  }
+
+  .equipment-section ul li {
+    font-size: 0.95rem;
+  }
+}
+/* ===========================
+   COURSE OVERVIEW SECTION
+=========================== */
+.course-overview-section {
+  background: #f8f9fa; /* خلفية هادئة */
+  padding: 50px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  margin-bottom: 3rem;
+}
+
+/* ===========================
+   TITLE
+=========================== */
+.course-overview-section h1 {
+  font-size: 2.5rem;
+  color: #0072ff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.course-overview-section h1::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #00bfff;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 8px;
+}
+
+/* ===========================
+   PARAGRAPHS
+=========================== */
+.course-overview-section p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+@media (max-width: 768px) {
+  .course-overview-section h1 {
+    font-size: 2rem;
+  }
+
+  .course-overview-section p {
+    font-size: 1rem;
+  }
+}
+
+/* ===========================
+   COMMON SECTION STYLE
+=========================== */
+.course-subsection {
+  background-color: #f8f9fa; /* لون فاتح للـ background */
+  padding: 30px 25px;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  border-left: 5px solid #0072ff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.course-subsection:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ===========================
+   HEADINGS
+=========================== */
+.course-subsection h3 {
+  font-size: 1.6rem;
+  color: #0072ff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* ===========================
+   PARAGRAPHS
+=========================== */
+.course-subsection p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* ===========================
+   LISTS
+=========================== */
+.course-subsection ul {
+  list-style-type: disc;
+  padding-left: 1.8rem;
+  margin-bottom: 0;
+}
+
+.course-subsection ul li {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0.6rem;
+}
+
+.course-subsection ul li strong {
+  color: #0072ff;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+@media (max-width: 768px) {
+  .course-subsection h3 {
+    font-size: 1.3rem;
+  }
+  .course-subsection p,
+  .course-subsection ul li {
+    font-size: 0.95rem;
+  }
+}
