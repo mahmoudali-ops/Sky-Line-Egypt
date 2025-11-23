@@ -155,7 +155,8 @@ window.onclick = function (event) {
 const translations = {
  
     ru: {
-        
+        "travel_price_title":"Reisprijs",
+        "travel_price_per_best":"Beste prijs",
   "why_dive_speed_boat": "Waarom duiken met een speedboot?",
   "top_dive_sites": "Topduiklocaties worden voor de beste ervaring geprioriteerd",
   "fast_trip": "Snelle boottransfer – bespaart tijd en maximaliseert het duiken",
@@ -1728,6 +1729,8 @@ const translations = {
     },
 
     gr:{
+        "travel_price_title":"Reisepreis",
+        "travel_price_per_best":"Bester Preis",
         "why_dive_speed_boat": "Warum mit einem Schnellboot tauchen?",
   "top_dive_sites": "Top-Tauchplätze werden für das beste Erlebnis priorisiert",
   "fast_trip": "Schneller Bootstransfer – spart Zeit und maximiert das Tauchen",
