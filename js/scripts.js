@@ -155,6 +155,8 @@ window.onclick = function (event) {
 const translations = {
  
     ru: {
+        "travelIncludedPickupCairo":"Ophalen en terugbrengen van uw hotel in Caïro naar het Groot Egyptisch Museum",
+        "travel_price_label":"Groot Egyptisch Museum",
         "travel_price_title":"Reisprijs",
         "travel_price_per_best":"Beste prijs",
   "why_dive_speed_boat": "Waarom duiken met een speedboot?",
@@ -1729,6 +1731,8 @@ const translations = {
     },
 
     gr:{
+        "travelIncludedPickupCairo":"Abholung und Rücktransfer von Ihrem Hotel in Kairo zum Großen Ägyptischen Museum",
+        "travelGrandEgyptianMuseum":"Große Ägyptische Museum",
         "travel_price_title":"Reisepreis",
         "travel_price_per_best":"Bester Preis",
         "why_dive_speed_boat": "Warum mit einem Schnellboot tauchen?",
